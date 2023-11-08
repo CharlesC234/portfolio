@@ -1,0 +1,32 @@
+{
+	"intro": {
+		"start": "const myPortfolio = () =>",
+		"end": "const myPortfolio = () =>",
+		"speed": 60,
+		"deletionSpeed": 80,
+		"wrapper": "h2",
+		"startDelay": 1000,
+		"deleteDelay": 3000,
+		"restartDelay": 12000
+	},
+
+	"header": {
+		"name": "Charles Cahill.",
+		"usp": "Full Stack Developer."
+	},
+
+	"paragraph": "Hello! Here is a short overview of some of the work I have done, and some I am currently working on. I mainly specialize in frontend development in Javascript, EJS, and CSS, as well as full stack development using Next.js, and React. I have also done some backend programming using Node.js, Express.js, MongoDB. Over the past couple of years I have also leaned into object oriented programming in C++, Python and Java.",
+
+	"buttons": {
+		"primary": {
+			"title": "Contact Me",
+			"url": "mailto:ccahill0901@floridapoly.edu",
+			"leaveSite": false
+		},
+		"secondary": {
+			"title": "LinkedIn",
+			"url": "https://www.linkedin.com/in/charles-cahill-897475267/",
+			"leaveSite": "true"
+		}
+	}
+}

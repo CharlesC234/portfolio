@@ -1,0 +1,160 @@
+[
+	{
+		"project": "Portrait",
+		"url": "/",
+		"repo": "Private",
+		"descriptionTitle": "A mobile application",
+		"description": "built on React-Native and NodeJS. An industry level social media application utilizing modern UI techniques and a custom REST API",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "525", "w": "260", "l": "500", "url": "/img/portrait2.png" },
+			{ "key": "portfolio", "hover": "right", "h": "525", "w": "260", "l": "500", "url": "/img/portrait3.png" }
+		],
+		"stack": [
+			{ "key": "react", 		"name": "React-Native", 		"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "typescript", 	"name": "Typescript", 	"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{ "key": "mongodb",		"name": "MongoDB", 	"type": "devicon" },
+			{"key": "expressjs", "name": "Express.js", "type": "devicon"},
+			{"key": "npm", "name": "NPM", "type": "devicon"},
+			{"key": "java", "name": "Java", "type": "devicon"},
+			{"key": "androidstudio", "name": "Android Studio", "type": "devicon"}
+		]
+	},
+	{
+		"project": "EnterTheCosmics.xyz",
+		"url": "/",
+		"repo": "Private",
+		"descriptionTitle": "A static website",
+		"description": "built on Next.js and React.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "left", "h": "347", "w": "500", "l": "500", "url": "/img/thecosmics.png" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "typescript", 	"name": "Typescript", 	"type": "devicon" },
+			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
+			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
+			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{"key": "python", "name": "Python", "type": "devicon"},
+			{"key": "django", "name": "Django", "type": "devicon"}
+
+		]
+	},
+	{
+		"project": "xpixels.io",
+		"url": "https://xpixels.io",
+		"repo": "Private",
+		"descriptionTitle": "An AI driven platform",
+		"description": "built on Next.js and React. xpixels.io is an adult content site that displays AI generated models and will eventually allow users to generate their own lora models usign stable diffusion.",
+		"imageOptions": [
+		],
+		"images": [
+			{ "key": "mock-stack",	"hover": "right", 	"h": "600", "w": "500", "url": "/img/xpixels.png" }
+
+		],
+		"stack": [
+			{ "key": "python", "name": "Python", "type": "devicon" },
+			{ "key": "javascript", "name": "JavaScript", "type": "devicon" },
+			{ "key": "git", "name": "Git", "type": "devicon" },
+			{ "key": "typescript", "name": "TypeScript", "type": "devicon" },
+			{ "key": "nodejs", "name": "NodeJS", "type": "devicon"},
+			{"key": "expressjs", "name": "Express.js", "type": "devicon"},
+			{ "key": "tailwindcss", "name": "Tailwind", "type": "devicon"},
+			{ "key": "bootstrap", "name": "Bootstrap", "type": "devicon"}
+		]
+
+	},
+	{
+		"project": "viben.tech",
+		"url": "https://viben.tech",
+		"repo": "Private",
+		"descriptionTitle": "A portfolio website",
+		"description": "built on Next.js and React. A fast and responsive single page application.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "left", "h": "415", "w": "510", "l": "500", "url": "/img/vibentech.png" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "typescript", 	"name": "Typescript", 	"type": "devicon" },
+			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
+			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
+			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{"key": "python", "name": "Python", "type": "devicon"},
+			{"key": "django", "name": "Django", "type": "devicon"}
+
+		]
+	},
+	{
+		"project": "charlescahill.dev",
+		"url": "/",
+		"repo": "Private",
+		"descriptionTitle": "A portfolio website",
+		"description": "built on Next.js and React. A fast and responsive single page application.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "415", "w": "525", "l": "500", "url": "/img/img-mock2.png" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "typescript", 	"name": "Typescript", 	"type": "devicon" },
+			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
+			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
+			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{"key": "python", "name": "Python", "type": "devicon"},
+			{"key": "django", "name": "Django", "type": "devicon"}
+
+		]
+	},
+	{
+		"project": "sofwerx.org",
+		"url": "/",
+		"repo": "Private",
+		"descriptionTitle": "A portfolio website",
+		"description": "built on Next.js and React. A fast and responsive single page application.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "415", "w": "525", "l": "500", "url": "/img/sofwerx.png" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "typescript", 	"name": "Typescript", 	"type": "devicon" },
+			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
+			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
+			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{"key": "python", "name": "Python", "type": "devicon"},
+			{"key": "django", "name": "Django", "type": "devicon"}
+
+		]
+	}
+]

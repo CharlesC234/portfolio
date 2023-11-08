@@ -1,0 +1,20 @@
+[
+	{
+		"url": "/",
+		"title": "01. Home"
+	},
+	{
+		"url": "mailto:ccahill0901@floridapoly.edu",
+		"title": "02. Contact"
+	},
+	{
+		"url": "/#projects",
+		"title": "03. Projects"
+	},
+	{
+		"url": "/resume",
+		"title": "04. Resume"
+	}
+
+
+]
