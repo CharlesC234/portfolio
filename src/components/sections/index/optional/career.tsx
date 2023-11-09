@@ -74,7 +74,7 @@ As a  Full Stack Developer, my current focus lies in the field of complex projec
 */}
 				</section>
 				<h3 style={{fontSize: 25, textAlign: 'center', marginTop: 50, marginBottom: 50}}>Recommendations</h3>
-				<section className={about.content} style={{width: '50%', marginTop: 15}}>
+				<section className={`w-50 max-sm:w-100${about.content}`} style={{marginTop: 15}}>
 				<div className={career.position}>
 
 				<div className={career.companyContent}>
