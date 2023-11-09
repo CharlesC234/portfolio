@@ -31,7 +31,7 @@ export default function resume() {
 					subTitle="ccahill0901@floridpoly.edu"
 				/>
 	<button className={`button ${button.secondary}`} style={{marginRight: 0, alignSelf: 'center', borderWidth: 2}}>
-		<a href="/img/resume.pdf" download="charles_cahill_resume.pdf">Download Formal Resume</a></button>
+		<a href="/img/resume1.pdf" download="charles_cahill_resume.pdf">View Formal Resume</a></button>
 	<section className={about.content}>
 	<div className={about.copy}>
 		<div className={about.container}>
@@ -156,7 +156,7 @@ export default function resume() {
 	</section>
 	
 </Container>
-<div className={css.bgContainer} style={{top: 0, zIndex: -1, opacity: 1}}>
+<div className={css.bgContainer} style={{top: 0, zIndex: -1, opacity: 1, left: 0}}>
 	<span className={css.orbitalBg}>
 		<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroLeft} ${css.heroOrbital}`}></span></span>
 		<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroCenter}`}></span></span>
@@ -164,7 +164,7 @@ export default function resume() {
 	</span>
 	<span className={css.afterGlowBg}></span>
 </div>
-<div className={css.bgContainer} style={{top: 1000, zIndex: -1, opacity: 1}}>
+<div className={css.bgContainer} style={{top: 1250, zIndex: -1, opacity: 1}}>
 	<span className={css.orbitalBg}>
 		<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroLeft} ${css.heroOrbital}`}></span></span>
 		<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroCenter}`}></span></span>

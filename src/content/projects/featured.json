@@ -3,14 +3,14 @@
 		"project": "Portrait",
 		"url": "/",
 		"repo": "Private",
-		"descriptionTitle": "A mobile application",
-		"description": "built on React-Native and NodeJS. An industry level social media application utilizing modern UI techniques and a custom REST API",
+		"descriptionTitle": "An industry grade social platform",
+		"description": "built on React-Native and NodeJS. A cross-platform mobile application utilizing modern UI techniques and a custom REST API",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "right", "h": "525", "w": "260", "l": "500", "url": "/img/portrait2.png" },
-			{ "key": "portfolio", "hover": "right", "h": "525", "w": "260", "l": "500", "url": "/img/portrait3.png" }
+			{ "key": "portfolio", "hover": "right", "h": "500", "w": "240", "l": "500", "url": "/img/portrait2.png" },
+			{ "key": "portfolio", "hover": "right", "h": "500", "w": "240", "l": "500", "url": "/img/portrait3.png" }
 		],
 		"stack": [
 			{ "key": "react", 		"name": "React-Native", 		"type": "devicon" },
@@ -26,29 +26,23 @@
 		]
 	},
 	{
-		"project": "EnterTheCosmics.xyz",
-		"url": "/",
+		"project": "viben.tech",
+		"url": "https://viben.tech",
 		"repo": "Private",
-		"descriptionTitle": "A static website",
-		"description": "built on Next.js and React.",
+		"descriptionTitle": "A buisness portfolio website",
+		"description": "built on HTML, CSS, and JavaScript. A fast and responsive application meant for marketing and providing insight to users.",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "347", "w": "500", "l": "500", "url": "/img/thecosmics.png" }
+			{ "key": "portfolio", "hover": "left", "h": "415", "w": "510", "l": "500", "url": "/img/vibentech.png" }
 		],
 		"stack": [
-			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
-			{ "key": "react", 		"name": "React", 		"type": "devicon" },
-			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "typescript", 	"name": "Typescript", 	"type": "devicon" },
 			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
 			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
 			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
-			{"key": "python", "name": "Python", "type": "devicon"},
-			{"key": "django", "name": "Django", "type": "devicon"}
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
 
 		]
 	},
@@ -57,11 +51,11 @@
 		"url": "https://xpixels.io",
 		"repo": "Private",
 		"descriptionTitle": "An AI driven platform",
-		"description": "built on Next.js and React. xpixels.io is an adult content site that displays AI generated models and will eventually allow users to generate their own lora models usign stable diffusion.",
+		"description": "built on Next.js and React. xpixels.io is an adult content site that displays AI generated models and will eventually allow users to generate their own lora models using stable diffusion.",
 		"imageOptions": [
 		],
 		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "600", "w": "500", "url": "/img/xpixels.png" }
+			{ "key": "mock-stack",	"hover": "right", 	"h": "500", "w": "450", "url": "/img/xpixels.png" }
 
 		],
 		"stack": [
@@ -77,29 +71,26 @@
 
 	},
 	{
-		"project": "viben.tech",
-		"url": "https://viben.tech",
+		"project": "sofwerx.org",
+		"url": "/",
 		"repo": "Private",
-		"descriptionTitle": "A portfolio website",
-		"description": "built on Next.js and React. A fast and responsive single page application.",
+		"descriptionTitle": "A full-stack industry-grade site",
+		"description": "built on Next.js, React, and Bootstrap, utilizing a headless cms. A fast and responsive multi-page application.",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "415", "w": "510", "l": "500", "url": "/img/vibentech.png" }
+			{ "key": "portfolio", "hover": "right", "h": "415", "w": "525", "l": "500", "url": "/img/sofwerx.png" }
 		],
 		"stack": [
 			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
 			{ "key": "react", 		"name": "React", 		"type": "devicon" },
-			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "typescript", 	"name": "Typescript", 	"type": "devicon" },
-			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
-			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
 			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
 			{"key": "python", "name": "Python", "type": "devicon"},
-			{"key": "django", "name": "Django", "type": "devicon"}
+			{"key": "bootstrap", "name": "Bootstrap", "type": "devicon"},
+			{"key": "aws", "name": "AWS", "type": "devicon"},
+			{"key": "strapi", "name": "Strapi", "type": "devicon"}
 
 		]
 	},
@@ -125,35 +116,29 @@
 			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
 			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
 			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
-			{"key": "python", "name": "Python", "type": "devicon"},
-			{"key": "django", "name": "Django", "type": "devicon"}
+			{"key": "python", "name": "Python", "type": "devicon"}
 
 		]
 	},
 	{
-		"project": "sofwerx.org",
+		"project": "EnterTheCosmics.xyz",
 		"url": "/",
 		"repo": "Private",
-		"descriptionTitle": "A portfolio website",
-		"description": "built on Next.js and React. A fast and responsive single page application.",
+		"descriptionTitle": "A static website",
+		"description": "built on Next.js and React, allowing users to view a collection of NFTs",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "right", "h": "415", "w": "525", "l": "500", "url": "/img/sofwerx.png" }
+			{ "key": "portfolio", "hover": "left", "h": "347", "w": "500", "l": "500", "url": "/img/thecosmics.png" }
 		],
 		"stack": [
 			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
 			{ "key": "react", 		"name": "React", 		"type": "devicon" },
 			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "typescript", 	"name": "Typescript", 	"type": "devicon" },
-			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
-			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
 			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
-			{"key": "python", "name": "Python", "type": "devicon"},
-			{"key": "django", "name": "Django", "type": "devicon"}
+			{ "key": "aws",			"name": "AWS", 	"type": "devicon" }
 
 		]
 	}

@@ -6,6 +6,16 @@
 			"note": ""
 		},
 		{
+			"person": "xpixels.io",
+			"link": "https:/xpixels.io/",
+			"note": ""
+		},
+		{
+			"person": "basedgpt.chat",
+			"link": "https://basedgpt.chat/",
+			"note": ""
+		},
+		{
 			"person": "viben.tech",
 			"link": "https:/viben.tech/",
 			"note": ""
@@ -13,11 +23,6 @@
 		{
 			"person": "sofwerx.org",
 			"link": "https:/sofwerx.org/",
-			"note": ""
-		},
-		{
-			"person": "xpixels.io",
-			"link": "https:/xpixels.io/",
 			"note": ""
 		}
 
@@ -28,25 +33,20 @@
 			"person": "Home",
 			"link": "https://charlescahill.dev/",
 			"note": ""
-		},
-		{ 
-			"person": "Documentations",
-			"link": "https://muhammadfiaz.com/docs",
-			"note": ""
-		},	{
-			"person": "Articles",
-			"link": "https://muhammadfiaz.com/articles",
-			"note": ""
-		},
-
-		{
-			"person": "Projects",
-			"link": "https://muhammadfiaz.com/projects",
-			"note": ""
-		},
+		},	
 		{
 			"person": "Contact",
 			"link": "mailto:ccahill0901@floridapoly.edu",
+			"note": ""
+		},
+		{
+			"person": "Projects",
+			"link": "https://charlescahill.dev#projects",
+			"note": ""
+		},
+		{
+			"person": "Resume",
+			"link": "https://charlescahill.dev/resume",
 			"note": ""
 		}
 
@@ -55,20 +55,16 @@
 
 	"social": [
 		{
-			"url": "https://medium.com/@muhammad-fiaz",
-			"icon": "medium"
-		},
-		{
-			"url": "https://dev.to/muhammadfiaz",
-			"icon": "dev"
-		},
-		{
 			"url": "https://www.linkedin.com/in/muhammad-fiaz-/",
 			"icon": "linkedin"
 		},
 		{
-			"url": "https://github.com/muhammad-fiaz",
+			"url": "https://github.com/CharlesC234",
 			"icon": "github"
+		},
+		{
+			"url": "https://www.instagram.com/_charles_cahill_/",
+			"icon": "instagram"
 		}
 	]
 }

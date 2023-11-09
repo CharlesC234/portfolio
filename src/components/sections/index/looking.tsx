@@ -18,7 +18,7 @@ export default function Looking() {
 				<h4>I&apos;m currently looking for Internships.</h4>
 				<h2 className={looking.json}>Internships : &#123;</h2>
 				<h2 className={looking.jsonSub}><span className={looking.highlight}>Full Stack</span>,</h2>
-				<h2 className={looking.jsonSub}><span className={looking.highlight2}>Software Eng</span>,</h2>
+				<h2 className={looking.jsonSub}><span className={looking.highlight2}>Software Dev</span>,</h2>
 				<h2 className={looking.jsonSub}><span className={looking.highlight3}>Computer Science</span></h2>
 				<h2 className={looking.json}>&#125;</h2>
 				<h4>I am looking for positions that would allow me to expand my knowlege in Software Engineering and Computer Science.</h4>
