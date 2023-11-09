@@ -18,7 +18,7 @@ export default function Document() {
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
     {/* eslint-disable-next-line @next/next/no-title-in-document-head */}
     <title>Charles Cahill</title>
-       <meta name="description" content="Charles Cahill - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AL/ML, and Design. Join my journey." />
+       <meta name="description" content="Charles Cahill - A dedicated Full Stack Developer proficient in App/Web, Cloud, and Design. Engineering Perfection." />
 
     {/*These are need for PWA*/}
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -67,26 +67,23 @@ export default function Document() {
 
 
             <meta property="og:title" content="Charles Cahill" key="title" />
-            <meta property="og:description" content="Charles Cahill - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
-            <meta property="og:image" content="https://avatars.githubusercontent.com/u/75434191?v=4" />
-            <meta property="og:image:secure_url" content="https://avatars.githubusercontent.com/u/75434191?v=4" />
+            <meta property="og:description" content="Charles Cahill - A dedicated Full Stack Developer proficient in App/Web, Cloud, and Design. Engineering Perfection." />
+            <meta property="og:image" content="/img/pfp.jpg" />
+            <meta property="og:image:secure_url" content="/img/pfp.jpg" />
             <meta property="og:image:type" content="image/jpeg" />
             <meta property="og:image:alt" content="Charles Cahill" />
             <meta property="og:image:width" content="300" />
             <meta property="og:image:height" content="300" />
             <meta property="og:url" content="https://charlescahill.dev" />
             <meta property="og:type" content="website" />
-            <meta property="og:profile" content="https://github.com/muhammad-fiaz" />
+            <meta property="og:profile" content="https://github.com/CharlesC234" />
             <meta property="og:site_name" content="Charles Cahill" />
              <meta property="og:locale" content="en_US" />
 
 
-            <meta name="twitter:card" content="summary" />
-            <meta name="twitter:site" content="https://twitter.com/muhammadfiaz_" />
+
             <meta name="twitter:title" content="Charles Cahill" />
-            <meta name="twitter:description" content="Charles Cahill - A dedicated Full Stack Developer proficient in App/Web, Cloud, DevOps, AI/ML, and Design. Join my journey." />
-            <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/75434191?v=4" />
-            <meta name="twitter:creator" content="https://twitter.com/muhammadfiaz_" />
+            <meta name="twitter:description" content="Charles Cahill - A dedicated Full Stack Developer proficient in App/Web, Cloud, and Design. Engineering Perfection." />
             <meta name="twitter:domain" content="https://charlescahill.dev" />
 
 
