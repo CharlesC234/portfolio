@@ -3,14 +3,12 @@
 	"logo": "",
 
 	"username": {
-		"github": "muhammad-fiaz",
-		"medium": "@muhammad-fiaz",
-		"dev": "muhammadfiaz"
+		"github": "CharlesC234"
 	},
 
 	"portfolio": {
-		"fork_this": "This is an open-source project 🥰",
-		"repo_html": "https://github.com/muhammad-fiaz/portfolio.git",
-		"repo_api": "https://api.github.com/repos/muhammad-fiaz/portfolio"
+		"fork_this": "This is an open-source project",
+		"repo_html": "https://github.com/CharlesC234/portfolio",
+		"repo_api": "https://api.github.com/repos/CharlesC234/portfolio"
 	}
 }

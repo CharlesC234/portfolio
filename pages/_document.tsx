@@ -11,8 +11,6 @@ export default function Document() {
 <Head>
 {/*
 				Author: Charles Cahill
-                 GitHub: Visit the GitHub repository at https://github.com/muhammad-fiaz/portfolio/ for more details.
-                 license: MIT License
                   */}
     <meta charSet="utf-8" />
     <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
@@ -140,69 +138,10 @@ export default function Document() {
           "@type": "Person",
           "name": "Charles Cahill",
           "url": "https://charlescahill.dev",
-          "sameAs": [
-            "https://github.com/muhammad-fiaz",
-            "https://www.linkedin.com/in/muhammad-fiaz-",
-            "https://medium.com/@muhammad-fiaz",
-            "https://twitter.com/muhammadfiaz_",
-            "https://dev.to/muhammadfiaz"
-          ]
         }`
                 }}
             />
 
-
-            {/*Edit this to your according FAQ */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{
-                __html: `
-          {
-            "@context": "https://schema.org",
-            "@type": "FAQPage",
-            "mainEntity": [
-              {
-                "@type": "Question",
-                "name": "Have you worked on any projects?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, in addition to my personal projects and hobbies, I have worked on several projects, both individually and in teams. These projects have allowed me to apply theoretical knowledge to real-world scenarios, honing my practical skills in software development, web technologies, and computer networks."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Can we recruit you?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Yes, I am currently looking for jobs and I have also done several open-source projects as well."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Who is Charles Cahill?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Charles Cahill is a Full Stack Developer specializing in Cloud, DevOps, ML/AI, and Design. He is passionate about programming, innovation, and shaping the future. With expertise in various technologies and a strong background in software development, Charles Cahill strives to create innovative solutions and contribute to the advancement of technology. His skill set includes proficiency in cloud computing, DevOps practices, machine learning/artificial intelligence, and design principles. Charles Cahill is dedicated to staying up-to-date with the latest industry trends and leveraging his knowledge to drive impactful and transformative projects."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "Where is Charles Cahill from?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Charles Cahill is from Madurai, Tamil Nadu, India."
-                }
-              },
-              {
-                "@type": "Question",
-                "name": "What does Charles Cahill do?",
-                "acceptedAnswer": {
-                  "@type": "Answer",
-                  "text": "Charles Cahill leverages Cloud, DevOps, ML/AI, Design, and web/mobile apps to benefit people with optimized operations and user-friendly experiences."
-                }
-              }
-            ]
-          }
-        `,
-            }} />
 
             {/*Edit this to your according to your website*/}
             <script type="application/ld+json" dangerouslySetInnerHTML={{
@@ -218,44 +157,17 @@ export default function Document() {
             },{
               "@type": "ListItem",
               "position": 2,
-              "name": "Docs",
-              "item": "https://charlescahill.dev/docs"
-            },{
-              "@type": "ListItem",
-              "position": 3,
-              "name": "Articles",
-              "item": "https://charlescahill.dev/articles"
-            },{
-              "@type": "ListItem",
-              "position": 4,
               "name": "Projects",
               "item": "https://charlescahill.dev/projects"
             },{
               "@type": "ListItem",
-              "position": 5,
-              "name": "Sign In",
-              "item": "https://charlescahill.dev/signin"
-            }]
-          }
+              "position": 3,
+              "name": "Resume",
+              "item": "https://charlescahill.dev/resume"
+            },
         `
             }} />
 
-            {/*Edit this to your according to your website*/}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{
-                __html: `
-          {
-            "@context": "https://schema.org",
-            "@type": "ResearchProject",
-            "name": "NeuroLink",
-            "description": "NeuroLink is a Python package that aims to provide various AI capabilities, including a chatbot, image processing, audio processing, Django support, and more. It utilizes TensorFlow and other related technologies for natural language processing and AI tasks.",
-            "alternateName": "neurolink",
-            "url": "https://github.com/muhammad-fiaz/neurolink",
-            "logo": "https://private-user-images.githubusercontent.com/75434191/242214243-82fbf702-43e2-46e6-8e01-11758fa26310.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTQ4NTE2ODksIm5iZiI6MTY5NDg1MTM4OSwicGF0aCI6Ii83NTQzNDE5MS8yNDIyMTQyNDMtODJmYmY3MDItNDNlMi00NmU2LThlMDEtMTE3NThmYTI2MzEwLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzA5MTYlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMwOTE2VDA4MDMwOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWQ3NjJmNzA5MGU5NWY4NTUxZTcxYmVmNzNlZTYzOTViN2FjNzE1YTM2MjM1OTNlOGIxNzk0ODE1NDczMDMzNGEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.ay5bRLRoojQ33ZJLFnvjyq6Dq4qZfDY7quvv4WmgRLI",
-             "sameAs": [
-            "https://www.linkedin.com/in/muhammad-fiaz-/"
-        ]          }
-        `
-            }} />
 	{/*theme*/}
 	<Script id="theme.util.jsx" strategy="beforeInteractive" >
 		{`
@@ -265,22 +177,6 @@ export default function Document() {
 				`}
 	</Script>
 
-    {/* Google Analytics */}
-    <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-SDJ0K1Y70X"/>
-    <Script
-        id='google-analytics'
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-            __html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-SDJ0K1Y70X', {
-            page_path: window.location.pathname,
-          });
-        `,
-        }}
-    />
 </Head>
 
 			<body>

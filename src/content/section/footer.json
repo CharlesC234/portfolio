@@ -6,11 +6,6 @@
 			"note": ""
 		},
 		{
-			"person": "xpixels.io",
-			"link": "https:/xpixels.io/",
-			"note": ""
-		},
-		{
 			"person": "basedgpt.chat",
 			"link": "https://basedgpt.chat/",
 			"note": ""
@@ -55,16 +50,12 @@
 
 	"social": [
 		{
-			"url": "https://www.linkedin.com/in/muhammad-fiaz-/",
+			"url": "https://www.linkedin.com/in/charles-cahill-897475267/",
 			"icon": "linkedin"
 		},
 		{
 			"url": "https://github.com/CharlesC234",
 			"icon": "github"
-		},
-		{
-			"url": "https://www.instagram.com/_charles_cahill_/",
-			"icon": "instagram"
 		}
 	]
 }
