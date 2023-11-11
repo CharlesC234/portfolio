@@ -31,7 +31,7 @@ export default function resume() {
 					subTitle="ccahill0901@floridpoly.edu"
 				/>
 	<button className={`button ${button.secondary}`} style={{marginRight: 0, alignSelf: 'center', borderWidth: 2}}>
-		<a href="/img/resume1.pdf" download="charles_cahill_resume.pdf">View Formal Resume</a></button>
+		<a href="/img/Charles_Cahill_Resume.pdf" download="charles_cahill_resume.pdf">View Formal Resume</a></button>
 	<section className={about.content}>
 	<div className={about.copy}>
 		<div className={about.container}>
