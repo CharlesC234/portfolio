@@ -81,7 +81,7 @@ export default function resume() {
 			</span>
 			<span>
 			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"XPixels.io"}</h4>
-			<p>An AI driven adult content site built on Next.js and React. The site displays AI generated models and will eventually allow users to generate their own lora models usign stable diffusion</p>
+			<p>An AI driven content site built on Next.js and React. The site displays AI generated models and will eventually allow users to generate their own lora models usign stable diffusion</p>
 			</span>
 		</div>
 		</div>

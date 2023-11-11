@@ -25,14 +25,14 @@ export default function Technical() {
 				<SectionTitle
 					title="Technical"
 					preTitle="Hard Skills"
-					subTitle="As a creative technologist, I craft intuitive digital experiences using a diverse set of tools and languages."
+					subTitle="As a full stack developer and digital creator, choosing the right tools for the job is essential."
 				/>
 				<section className={`${technical.content} ${technical.container}`}>
 					<div className={technical.copy}>
 
 						<BadgesBlock
 							title="Software"
-							copy="As a self-taught programmer with a passion for project development, I have a deep and intuitive understanding of how the interfaces of the best software products in the world are designed. I particularly enjoy working with tools like VS Code and JetBrains software to create exceptional projects."
+							copy="When picking software for my projects, I keep things simple. I make sure to learn tools that are widely used in the industry. I also focus on choosing what makes the most sense for each project. One tool I really like is the headless CMS Strapi, a kind of behind-the-scenes manager for content on websites and apps. It helps me customize things the way I want, and it also provides a simple and easy way for clients, who may be less technologically inclined, to manage their site."
 							list={software}
 							block="software"
 							fullContainer="fullContainer"
@@ -42,7 +42,7 @@ export default function Technical() {
 
 						<BadgesBlock
 							title="Programming Languages and Frameworks"
-							copy="As a passionate problem solver, I thrive on creating innovative solutions through coding. From front-end development to back-end systems and APIs, I embrace challenges and enjoy pushing the boundaries of what's possible."
+							copy="In my line of work, using the right programming languages and frameworks is key to building top-notch products. I focus on learning widely used languages or the ones that suit each project best. Over the years, I've become most experienced in JavaScript—an incredibly diverse and widely adopted language supported by various frameworks. I've also delved into C++, Java, C, HTML, and CSS. Recently, I've been exploring Python, aiming to gain expertise in this widely supported language. I'm particularly intrigued by Python's popularity in AI and machine learning."
 							list={tech}
 							block="tech"
 							fullContainer="fullContainer"
@@ -72,12 +72,12 @@ export default function Technical() {
 const software = [
 	{ key: 'photoshop', 	name: 'Photoshop', 			type: 'devicon' },
 	{ key: 'figma', 		name: 'Figma', 				type: 'devicon' },
-	{ key: 'jetbrains', name: 'Jetbrains', type: 'devicon' },
 	{ key: 'vscode', 		name: 'VSCode', 			type: 'devicon' },
-	{key:'blender',name:'blender',type:'devicon'},
 	{key:'unity',name:'unity',type:'devicon'},
 	{key:'androidstudio',name:'AndroidStudio',type:'devicon'},
-	{key:'unrealengine',name:'UnrealEngine',type:'devicon'}
+	{key:"excel",name:"Excel",type:"devicon"},
+	{key:"illustrator",name:"Illustrator",type:"devicon"},
+	{key:"strapi",name:"Strapi",type:"devicon"},
 
 
 
@@ -89,8 +89,6 @@ const tech = [
 	{ key: 'nodejs', name: 'NodeJS', type: 'devicon' },
 	{ key: 'react', name: 'React', type: 'devicon' },
 	{ key: 'nextjs', name: 'NextJS', type: 'devicon' },
-	{ key: 'php', name: 'PHP', type: 'devicon' },
-	{ key: 'wordpress', name: 'WordPress', type: 'devicon' },
 	{ key: 'html5', name: 'HTML5', type: 'devicon' },
 	{ key: 'css3', name: 'CSS3', type: 'devicon' },
 	{ key: 'sass', name: 'SASS', type: 'devicon' },
@@ -99,22 +97,14 @@ const tech = [
 	{ key: 'mongodb', name: 'MongoDB', type: 'devicon' },
 	{ key: 'python', name: 'Python', type: 'devicon' },
 	{ key: 'java', name: 'Java', type: 'devicon' },
-	{ key: 'csharp', name: 'C#', type: 'devicon' },
-	{ key: 'django', name: 'Django', type: 'devicon' },
 	{ key: 'typescript', name: 'TypeScript', type: 'devicon' },
 	{ key: 'c', name: 'C', type: 'devicon' },
 	{ key: 'cplusplus', name: 'C++', type: 'devicon' },
-	{ key: 'jquery', name: 'jQuery', type: 'devicon' },
-	{ key: 'kotlin', name: 'Kotlin', type: 'devicon' },
-	{ key: 'vuejs', name: 'Vuejs', type: 'devicon' },
 	{ key: 'tailwind', name: 'TailwindCSS', type: 'devicon' },
 	{ key: 'bootstrap', name: 'Bootstrap', type: 'devicon' },
 	{ key: 'npm', name: 'npm', type: 'devicon' },
-	{ key: 'yarn', name: 'Yarn', type: 'devicon' },
-	{key:"angularjs",name:"AngularJS",type:"devicon"},
 	{key:"android",name:"Android",type:"devicon"},
-	{key:"firebase",name:"Firebase",type:"devicon"},
-	{key:"flask",name:"Flask",type:"devicon"}
+	{key:"react",name:"React Native",type:"devicon"},
 
 
 

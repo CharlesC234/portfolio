@@ -4,6 +4,8 @@ import { TypeAnimation } from 'react-type-animation';
 import Section from '../../structure/section';
 import Container from '../../structure/container';
 import Image from 'next/image';
+import Router from 'next/router';
+import { useRouter } from 'next/router';
 
 import space from '../../utils/spacing';
 
@@ -16,7 +18,7 @@ import content from '../../../content/index/hero.json';
 
 export default function Hero() {
 	const [, setTypingStatus] = useState('Initializing');
-
+	const router = useRouter();
 	return (
 		<Section classProp={`${hero.section}`}>
 			<Container spacing={'VerticalXXXL'}>
@@ -68,6 +70,13 @@ export default function Hero() {
 						onClick={() => window.open('https://www.linkedin.com/in/charles-cahill-897475267', '_blank')}
 					>
 						{content.buttons.secondary.title}
+					</button>
+					<button
+						className={`button ${button.secondary} leaveSite`} style={{marginTop: 15}}
+
+						onClick={() => router.push("/resume")}
+					>
+						{content.buttons.third.title}
 					</button>
 				</section>
 			</Container>

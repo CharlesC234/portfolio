@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import colors from '../src/content/index/_colors.json';
 import TitleIndex from './title.index';
+import { useRouter } from 'next/router';
 
 // Import your components with dynamic import
 import dynamic from 'next/dynamic';
@@ -23,16 +24,34 @@ interface HomePageProps {
 
 export default function HomePage({spacing}: HomePageProps) {
 	// Use a state variable to track whether components are loaded
+	const router = useRouter()
 	const [componentsLoaded, setComponentsLoaded] = useState(false);
 
 	// Simulate a loading delay
 	useEffect(() => {
 		const timer = setTimeout(() => {
 			setComponentsLoaded(true);
-		}, 2000);
+		}, 0);
 
 		return () => clearTimeout(timer);
 	}, []);
+
+	console.log("hello: " + JSON.stringify(router.query.projects));
+	if(router.query.projects != null){
+		router.replace( // or push or whatever you want
+		{
+		  pathname: window.location.pathname,
+		  hash: "projects",
+		  query: "",
+		}
+	  )
+	  .catch((e) => {
+		// workaround for https://github.com/vercel/next.js/issues/37362
+		if (!e.cancelled) {
+		  throw e
+		}
+	  })
+	}
 
 	return (
 		<div>

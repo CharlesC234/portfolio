@@ -27,6 +27,11 @@
 			"title": "LinkedIn",
 			"url": "https://www.linkedin.com/in/charles-cahill-897475267/",
 			"leaveSite": "true"
+		},
+		"third": {
+			"title": "Resume",
+			"url": "https://charlescahill.dev/resume",
+			"leaveSite": "true"
 		}
 	}
 }
