@@ -27,7 +27,7 @@ export default function Education() {
             <h3>Florida Polytechnic University</h3>
             <h5>Lakeland, Florida</h5>
         </span>
-                            <p>I am currently a junior pursuing my Bachelors degree in Computer Science with a focus in Software Engineering at Florida Polytechnic University. This four-year program offers a comprehensive curriculum that covers various aspects of computer science and its applications.</p>
+                            <p style={{fontSize: '15px'}}>I am currently a junior pursuing my Bachelors degree in Computer Science with a focus in Software Engineering at Florida Polytechnic University. This four-year program offers a comprehensive curriculum that covers various aspects of computer science and its applications.</p>
 
                         </div>
                         <div className={career.companyAlt}></div>

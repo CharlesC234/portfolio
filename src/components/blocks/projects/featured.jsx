@@ -57,7 +57,7 @@ export default function FeaturedProject({ content }, index) {
 						hover = ( hover === 'left' ) ? hoverLeft : hoverRight
 						return (
 							<m.div key={`${index}-${key}`} variants={item} style={images.length > 1 ? {marginRight: 10} : {marginRight: 0}}>
-								<m.div variants={hover}>
+								<m.div>
 									<div className={`relative`} width={w+"px"} height={h+"px"}>
 									<img style={{position: 'relative', width: '100%', height: '100%'}} src={url} alt="x" objectFit={'contain'} loading="eager"
 									/>

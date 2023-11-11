@@ -35,7 +35,7 @@ export default function Career() {
 						<h3>Web Development Intern at SOFWERX</h3>
 									<h4>Part Time · May 2023 - Present</h4>
 							</span>
-							<p>
+							<p style={{fontSize: 15}}>
 							During my time at SOFWERX, I learned a lot about building software and websites. I mainly used JavaScript, along with tools like React and Next.js, plus helpful libraries like Bootstrap and Tailwind. I got hands-on experience with the whole process - from coming up with an idea to making it work perfectly. I also got to be part of a team of programmers all working towards a common goal. This taught me a ton about how real-world projects come together. I improved skills I already had, like coding in JavaScript, designing in Figma, and using services like AWS. Plus, I picked up new skills like Python, Next.js, and working with a headless CMS called Strapi. This internship boosted my technical know-how and showed me how important teamwork is in software development. It was an amazing learning experience that prepared me for all kinds of challenges in web development.
 							</p>
 						</div>
