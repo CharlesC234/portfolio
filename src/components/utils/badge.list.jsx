@@ -16,16 +16,16 @@ export default function Badges({ list, block, color, fullContainer }) {
 
 	const controls = useAnimation();
 	const { ref, inView  } = useInView({
-		"threshold": 0.5,
-		"triggerOnce": false
+		"threshold": 0,
+		"triggerOnce": true
 	})
-// 	useEffect(() => {
-// 	controls.start("visible")
-// })
-	useEffect( () => {
-		if ( inView ) {	
-			controls.start("visible") }
-	}, [ controls, inView ] );
+	useEffect(() => {
+	controls.start("visible")
+})
+	// useEffect(() =>  {
+	// 	if ( inView ) {	
+	// 		controls.start("visible") }
+	// }, [ controls, inView ] );
 
 	const container = {
 		hidden: {

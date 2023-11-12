@@ -17,17 +17,16 @@ export default function FeaturedProject({ content }, index) {
 	const controls = useAnimation();
 	const { ref, inView  } = useInView({
 		"threshold": 0.25,
-		"triggerOnce": false
+		"triggerOnce": true
 	})
 
-	// useEffect(() => {
-	// 	controls.start("visible")
-	// })
+	useEffect(() => {
+		controls.start("visible")
+	}, [ controls, inView ])
 
-	useEffect( () => {
-		if ( inView ) {	controls.start("visible") }
-		
-	}, [ controls, inView ] )
+	// useEffect( () => {
+	// 	if ( inView ) {	controls.start("visible") }
+	// }, [ controls, inView ] )
 
 	return (
 		<m.section 	
@@ -36,7 +35,7 @@ export default function FeaturedProject({ content }, index) {
 			framer-motion
 			ref={ref}
 			variants={container}
-			initial={[ "rest", "hidden" ]}
+			initial={[ "rest", "visible" ]}
 			whileHover="hover"
 			animate={controls} 
 			>
@@ -56,7 +55,7 @@ export default function FeaturedProject({ content }, index) {
 				</div>
 			</div>
 
-			<div className={`${css.imageContainer}`} style={{right: 0, top: 4, display: 'flex', loading: 'eager'}}>
+			<div className={`${css.imageContainer}`} style={{right: 0, top: 4, display: 'flex'}}>
 				<span style={{display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', overflow: 'visible', alignSelf: 'center'}} className={`${css.imageAnimationContainer}`}>
 					{ images.map( ({key, url, hover, h, w, l}, index) => {
 						hover = ( hover === 'left' ) ? hoverLeft : hoverRight
@@ -64,7 +63,7 @@ export default function FeaturedProject({ content }, index) {
 							<m.div key={`${index}-${key}`} variants={item} style={images.length > 1 ? {marginRight: 10} : {marginRight: 0}}>
 								<m.div >
 									<div className={`relative`} width={w+"px"} height={h+"px"}>
-									<img style={{position: 'relative', width: '100%', height: '100%', loading: 'eager'}} src={url} alt="x" objectFit={'contain'} loading="eager"
+									<img style={{position: 'relative', width: '100%', height: '100%'}} src={url} alt="x" objectFit={'contain'} loading="eager"
 									/>
 									</div>
 								</m.div>

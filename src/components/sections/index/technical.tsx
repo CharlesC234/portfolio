@@ -57,7 +57,7 @@ export default function Technical() {
 				</section>	
 			</Container>
 			{/* <SectionGridBg gridSize={4}/> */}
-			<div className={css.bgContainer} style={{top: 400, zIndex: -1, opacity: .9}}>
+			<div className={css.bgContainer} style={{opacity: 1}}>
 				<span className={css.orbitalBg}>
 					<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroLeft} ${css.heroOrbital}`}></span></span>
 					<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroCenter}`}></span></span>
