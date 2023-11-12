@@ -19,10 +19,12 @@ export default function Badges({ list, block, color, fullContainer }) {
 		"threshold": 0.5,
 		"triggerOnce": false
 	})
-
+// 	useEffect(() => {
+// 	controls.start("visible")
+// })
 	useEffect( () => {
-		if ( inView ) {	controls.start("visible") }
-		if ( !inView ) { controls.start("hidden") }
+		if ( inView ) {	
+			controls.start("visible") }
 	}, [ controls, inView ] );
 
 	const container = {

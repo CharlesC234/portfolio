@@ -14,14 +14,32 @@ export default function FeaturedProject({ content }, index) {
 
 	const { project, url, repo, descriptionTitle,description, stack, imageOptions, images } = content
 
+	const controls = useAnimation();
+	const { ref, inView  } = useInView({
+		"threshold": 0.25,
+		"triggerOnce": false
+	})
+
+	// useEffect(() => {
+	// 	controls.start("visible")
+	// })
+
+	useEffect( () => {
+		if ( inView ) {	controls.start("visible") }
+		
+	}, [ controls, inView ] )
 
 	return (
 		<m.section 	
 			key={index}
 			className={css.project} 
-			//framer-motion
+			framer-motion
+			ref={ref}
 			variants={container}
-			whileHover="hover">
+			initial={[ "rest", "hidden" ]}
+			whileHover="hover"
+			animate={controls} 
+			>
 			
 			<div className={`sm:w-50 max-sm:w-100 ${css.details}`}>
 				<div className={css.projectHeader}>
@@ -38,15 +56,15 @@ export default function FeaturedProject({ content }, index) {
 				</div>
 			</div>
 
-			<div className={`${css.imageContainer}`} style={{right: 0, top: 4, display: 'flex'}}>
+			<div className={`${css.imageContainer}`} style={{right: 0, top: 4, display: 'flex', loading: 'eager'}}>
 				<span style={{display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', overflow: 'visible', alignSelf: 'center'}} className={`${css.imageAnimationContainer}`}>
 					{ images.map( ({key, url, hover, h, w, l}, index) => {
 						hover = ( hover === 'left' ) ? hoverLeft : hoverRight
 						return (
 							<m.div key={`${index}-${key}`} variants={item} style={images.length > 1 ? {marginRight: 10} : {marginRight: 0}}>
-								<m.div>
+								<m.div >
 									<div className={`relative`} width={w+"px"} height={h+"px"}>
-									<img style={{position: 'relative', width: '100%', height: '100%'}} src={url} alt="x" objectFit={'contain'} loading="eager"
+									<img style={{position: 'relative', width: '100%', height: '100%', loading: 'eager'}} src={url} alt="x" objectFit={'contain'} loading="eager"
 									/>
 									</div>
 								</m.div>

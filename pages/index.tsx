@@ -36,7 +36,6 @@ export default function HomePage({spacing}: HomePageProps) {
 		return () => clearTimeout(timer);
 	}, []);
 
-	console.log("hello: " + JSON.stringify(router.query.projects));
 	if(router.query.projects != null){
 		router.replace( // or push or whatever you want
 		{
@@ -60,7 +59,7 @@ export default function HomePage({spacing}: HomePageProps) {
 
 			{/* Conditionally render components or loading message */}
 			{/* These below line that commanded is Optional */}
-		{componentsLoaded ? (
+
 				<div>
 					<Hero />
 					<Looking />
@@ -70,9 +69,6 @@ export default function HomePage({spacing}: HomePageProps) {
 					{/*<TimeLine/> -> Coming soon */}
 			<FeaturedProjects />
 				</div>
-		) : (
-	<LoadingAnim/>
-			)}
 
 		</div>
 	);

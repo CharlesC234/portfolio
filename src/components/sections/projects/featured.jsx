@@ -37,7 +37,7 @@ export default function FeaturedProjects() {
 					<div style={{display: 'flex', flexDirection: 'row', justifyContent: 'center', flexWrap: 'wrap', width: '100%', overflow: 'visible', marginTop: 20}}>
 					<span style={{display: 'flex', flexDirection: 'row'}}>
 					<div style={{width: 20, height: 20, borderRadius: 5, marginBottom: 10, backgroundColor: '#05bfdb'}}/>
-					<h3 style={{fontSize: 18, marginLeft: 10, marginRight: 10, marginBottom: 10,}}>53.7% JavaScript</h3>
+					<h3 style={{fontSize: 18, marginLeft: 10, marginRight: 10, marginBottom: 10,}}>34.8% JavaScript</h3>
 					</span>
 					<span style={{display: 'flex', flexDirection: 'row'}}>
 					<div style={{width: 20, height: 20, borderRadius: 5, backgroundColor: '#6F38C5', marginLeft: 12.5, marginBottom: 10,}}/>
@@ -68,13 +68,17 @@ export default function FeaturedProjects() {
 					<h3 style={{fontSize: 18, marginLeft: 10, marginRight: 10, marginBottom: 10,}}>2.5% C</h3>
 					</span>
 					</div>
-					</div>				{
+					</div>
+					{/* <div style={{height: 5000, width: '100%', backgroundColor: '#ffffff'}}>
+					</div> */}
+			{
 				content.map( (data, index) => {
 					return (
 						<FeaturedProject content={data} index={index} key={index} />
 					)
 				})
 				}
+				
 			</Container>
 			<div className={css.bgContainer} style={{top: 1250}}>
 				<span className={css.orbitalBg}>
