@@ -36,7 +36,7 @@ export default function FeaturedProject({ content }, index) {
 			whileHover="hover"
 			animate={controls} >
 			
-			<div className={`sm:w-50 ${css.details}`}>
+			<div className={`sm:w-50 max-sm:w-100 ${css.details}`}>
 				<div className={css.projectHeader}>
 					<div className={css.header}>
 						<h3 className="highlight">{project}</h3><span className={css.privateOr}><i className="devicon-github-plain"></i>{repo}</span>	
@@ -57,7 +57,7 @@ export default function FeaturedProject({ content }, index) {
 						hover = ( hover === 'left' ) ? hoverLeft : hoverRight
 						return (
 							<m.div key={`${index}-${key}`} variants={item} style={images.length > 1 ? {marginRight: 10} : {marginRight: 0}}>
-								<m.div variants={hover}>
+								<m.div>
 									<div className={`relative`} width={w+"px"} height={h+"px"}>
 									<img style={{position: 'relative', width: '100%', height: '100%'}} src={url} alt="x" objectFit={'contain'} loading="eager"
 									/>
