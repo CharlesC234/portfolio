@@ -66,8 +66,8 @@ export default function Document() {
 
             <meta property="og:title" content="Charles Cahill" key="title" />
             <meta property="og:description" content="Charles Cahill - A dedicated Full Stack Developer proficient in App/Web, Cloud, and Design. Engineering Perfection." />
-            <meta property="og:image" content="/img/pfp.jpg" />
-            <meta property="og:image:secure_url" content="/img/pfp.jpg" />
+            <meta property="og:image" content="/img/frontimg.png" />
+            <meta property="og:image:secure_url" content="/img/frontimg.png" />
             <meta property="og:image:type" content="image/jpeg" />
             <meta property="og:image:alt" content="Charles Cahill" />
             <meta property="og:image:width" content="300" />
