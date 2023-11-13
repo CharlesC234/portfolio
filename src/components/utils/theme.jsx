@@ -18,9 +18,9 @@ export default function SetTheme() {
 		if (theme === "light") {
 			setTheme("dark");
 		} else if (theme === "dark") {
-			setTheme("unicorn");
+			setTheme("dark");
 		} else if (theme === "unicorn") {
-			setTheme("light");
+			setTheme("dark");
 		}
 	};
 
@@ -57,13 +57,13 @@ export default function SetTheme() {
 	};
 
 	useEffect(() => {
-		if (!theme) return setTheme(defaultTheme());
+		if (!theme) return setTheme("dark");
 
 		document.querySelector(":root").dataset.theme = theme;
 		localStorage.setItem("theme", theme);
 
 		const useSetTheme = (e) => {
-			setTheme(e.matches ? "dark" : "light");
+			setTheme("dark");
 		};
 
 		const watchSysTheme = window.matchMedia(
