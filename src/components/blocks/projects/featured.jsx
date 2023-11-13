@@ -17,28 +17,24 @@ export default function FeaturedProject({ content }, index) {
 	const controls = useAnimation();
 	const { ref, inView  } = useInView({
 		"threshold": 0.25,
-		"triggerOnce": true
+		"triggerOnce": false
 	})
 
-	useEffect(() => {
-		controls.start("visible")
-	}, [ controls, inView ])
-
-	// useEffect( () => {
-	// 	if ( inView ) {	controls.start("visible") }
-	// }, [ controls, inView ] )
+	useEffect( () => {
+		if ( inView ) {	controls.start("visible") }
+		if ( !inView ) { controls.start("hidden") }
+	}, [ controls, inView ] )
 
 	return (
 		<m.section 	
 			key={index}
 			className={css.project} 
-			framer-motion
+			//framer-motion
 			ref={ref}
 			variants={container}
-			initial={[ "rest", "visible" ]}
+			initial={[ "rest", "hidden" ]}
 			whileHover="hover"
-			animate={controls} 
-			>
+			animate={controls} >
 			
 			<div className={`sm:w-50 max-sm:w-100 ${css.details}`}>
 				<div className={css.projectHeader}>
