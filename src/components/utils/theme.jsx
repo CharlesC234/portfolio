@@ -12,7 +12,7 @@ export default function SetTheme() {
 	const router = useRouter();
 
 	const [route, wasRoute] = useState();
-	const [theme, setTheme] = useState();
+	const [theme, setTheme] = useState("dark");
 
 	const toggleTheme = () => {
 		if (theme === "light") {
