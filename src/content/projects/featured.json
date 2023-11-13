@@ -107,7 +107,7 @@
 		"url": "https://charlescahill.dev",
 		"repo": "Private",
 		"descriptionTitle": "A portfolio website",
-		"description": "built on Next.js and React. A fast and responsive single page application.",
+		"description": "built on Next.js and React. A fast and responsive multi page application.",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
