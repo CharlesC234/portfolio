@@ -77,7 +77,7 @@ export default function resume() {
 			</span>
 			<span>
 			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"BasedGPT.chat"}</h4>
-			<p>An uncensored version of chat gpt built on the llama model utilizing the PygmalionAI </p>
+			<p>An uncensored version of chat gpt built on the llama model utilizing the PygmalionAI. The backend may be offline due to high server fees and low user interactions </p>
 			</span>
 			<span>
 			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"XPixels.io"}</h4>
