@@ -26,6 +26,7 @@ export default function FeaturedProject({ content }, index) {
 	}, [ controls, inView ] )
 
 	return (
+		<a target="_blank" rel="noopener noreferrer" href={url}>
 		<m.section 	
 			key={index}
 			className={css.project} 
@@ -42,7 +43,7 @@ export default function FeaturedProject({ content }, index) {
 						<h3 className="highlight">{project}</h3><span className={css.privateOr}><i className="devicon-github-plain"></i>{repo}</span>	
 					</div>
 					<div className={css.description}>
-						<p><strong>{descriptionTitle}</strong> {description} <a style={{textDecorationLine: 'underline', fontWeight: 'normal'}} href={url}>{url}</a></p>
+						<p><strong style={{fontWeight: 'normal'}}>{descriptionTitle}</strong> <p style={{fontWeight: 'normal', opacity: .8}}>{description}</p></p>
 					</div>
 					<div className={css.stackContainer}>
 						<Badges list={stack} block="stack" fullContainer={false} color={false} />
@@ -70,6 +71,7 @@ export default function FeaturedProject({ content }, index) {
 			</div>
 			
 		</m.section>
+		</a>
 	)
 }
 
