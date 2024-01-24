@@ -42,7 +42,7 @@ export default function Technical() {
 
 						<BadgesBlock
 							title="Programming Languages and Frameworks"
-							copy="In my line of work, using the right programming languages and frameworks is key to building top-notch products. I focus on learning widely used languages or the ones that suit each project best. Over the years, I've become most experienced in JavaScript—an incredibly diverse and widely adopted language supported by various frameworks. I've also delved into C++, Java, C, HTML, and CSS. Recently, I've been exploring Python, aiming to gain expertise in this widely supported language. I'm particularly intrigued by Python's popularity in AI and machine learning."
+							copy="When developing software for clients, using the right programming languages and frameworks is key to building top-notch products. I focus on learning widely used languages or the ones that suit each project best. Over the years, I've become most experienced in JavaScript—an incredibly diverse and widely adopted language supported by various frameworks. I've also delved into C++, Java, C, HTML, and CSS. Recently, I've been exploring Python, aiming to gain expertise in this widely supported language. I'm particularly intrigued by Python's popularity in AI and machine learning."
 							list={tech}
 							block="tech"
 							fullContainer="fullContainer"
@@ -78,6 +78,7 @@ const software = [
 	{key:"excel",name:"Excel",type:"devicon"},
 	{key:"illustrator",name:"Illustrator",type:"devicon"},
 	{key:"strapi",name:"Strapi",type:"devicon"},
+	{key:"docker",name:"Docker",type:"devicon"},
 
 
 
@@ -100,6 +101,7 @@ const tech = [
 	{ key: 'typescript', name: 'TypeScript', type: 'devicon' },
 	{ key: 'c', name: 'C', type: 'devicon' },
 	{ key: 'cplusplus', name: 'C++', type: 'devicon' },
+	{key:"cscript",name:"C#",type:"devicon"},
 	{ key: 'tailwind', name: 'TailwindCSS', type: 'devicon' },
 	{ key: 'bootstrap', name: 'Bootstrap', type: 'devicon' },
 	{ key: 'npm', name: 'npm', type: 'devicon' },

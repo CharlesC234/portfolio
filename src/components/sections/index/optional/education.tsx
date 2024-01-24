@@ -17,7 +17,7 @@ export default function Education() {
                 <SectionTitle
                     title="Education"
                     preTitle="Formal"
-                    subTitle="I am currently studying Computer Science with a focus in Software Engineering at Florida Polytechnic University in Lakeland, Florida."
+                    subTitle="I'm a Junior studying Computer Science with a focus in Software Engineering at Florida Polytechnic University in Lakeland, Florida."
                 />
                 <section className={career.area}>
 
@@ -27,7 +27,7 @@ export default function Education() {
             <h3>Florida Polytechnic University</h3>
             <h5>Lakeland, Florida</h5>
         </span>
-                            <p style={{fontSize: '15px'}}>I am currently a junior pursuing my Bachelors degree in Computer Science with a focus in Software Engineering at Florida Polytechnic University. This four-year program offers a comprehensive curriculum that covers various aspects of computer science and its applications.</p>
+                            <p style={{fontSize: '15px'}}>During my time at Florida Polytechnic I have learned a tremendous amount. Initially I studied Electrical Engineering, but eventually switched my major, as I found that Computer Science aligned more with what I really wanted to do as well as my dreams of entrepreneurship. I would highly recommend the Computer Science program at Florida Polytechnic, I have had great hands on experience in the field, and amazing professors. Overall I feel it has adequately preppared me for the industry.</p>
 
                         </div>
                         <div className={career.companyAlt}></div>

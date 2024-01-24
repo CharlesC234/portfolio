@@ -53,9 +53,13 @@ export default function resume() {
         	<Icon icon={['fas', 'user']} />
      		</span>
 			 <h3>{"Experience"}</h3>
+			 <span>
+			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Florida Polytechnic University, Lakeland, Fl — Software Development Research Under Professor Denis Ulybyshev"}</h4>
+			<p style={{fontSize: 13, marginBottom: 5}}>January 2024 - Present</p><p style={{lineHeight: 1.5,}}>Helping a professor create a full stack web application called FIXIS (NFC based information system for smart cities and campuses) using .NET, C#, PostgreSQL, and Docker.</p>
+			</span>
 			<span>
 			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"SOFWERX Computer Science Internship, Tampa, Fl"}</h4>
-			<p style={{fontSize: 13, marginBottom: 5}}>May 2023 - Present</p><p style={{lineHeight: 1.5,}}>Full stack development with Next.js and Bootstrap, AWS deployment, headless CMS integration, UI/UX design in Figma, version control using GIT.  Fast development and prototyping using open-source repositories.</p>
+			<p style={{fontSize: 13, marginBottom: 5}}>May 2023 - December 2023</p><p style={{lineHeight: 1.5,}}>Full stack development with Next.js and Bootstrap, AWS deployment, headless CMS integration, UI/UX design in Figma, version control using GIT.  Fast development and prototyping using open-source repositories.</p>
 			</span>
 			<span>
 			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Florida Polytechnic University, Lakeland, Fl — University Registrar Student Worker"}</h4>
@@ -81,7 +85,7 @@ export default function resume() {
 			</span>
 			<span>
 			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"XPixels.io"}</h4>
-			<p>An AI driven content site built on Next.js and React. The site displays AI generated models and will eventually allow users to generate their own lora models usign stable diffusion</p>
+			<p>An AI driven content site built on Next.js and React. The site displays AI generated models and will eventually allow users to generate their own lora models usign stable diffusion (18+)</p>
 			</span>
 		</div>
 		</div>
