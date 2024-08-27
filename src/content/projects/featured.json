@@ -52,33 +52,6 @@
 		]
 	},
 	{
-		"project": "xpixels.io",
-		"url": "",
-		"repo": "Private",
-		"descriptionTitle": "An AI driven platform",
-		"description": "built on Next.js and React. xpixels.io is an adult content site that displays AI generated models and will eventually allow users to generate their own lora models using stable diffusion. (18+)",
-		"imageOptions": [
-		],
-		"images": [
-			{ "key": "mock-stack",	"hover": "right", 	"h": "500", "w": "450", "url": "/img/xpixels.png" }
-
-		],
-		"stack": [
-			{ "key": "python", "name": "Python", "type": "devicon" },
-			{ "key": "javascript", "name": "JavaScript", "type": "devicon" },
-			{ "key": "git", "name": "Git", "type": "devicon" },
-			{ "key": "typescript", "name": "TypeScript", "type": "devicon" },
-			{ "key": "nodejs", "name": "NodeJS", "type": "devicon"},
-			{"key": "expressjs", "name": "Express.js", "type": "devicon"},
-			{ "key": "tailwindcss", "name": "Tailwind", "type": "devicon"},
-			{ "key": "bootstrap", "name": "Bootstrap", "type": "devicon"},
-			{"key": "strapi", "name": "Strapi", "type": "devicon"},
-			{"key": "aws", "name": "AWS", "type": "devicon"},
-			{"key": "cloudflare", "name": "Cloudflare", "type": "devicon"}
-		]
-
-	},
-	{
 		"project": "BasedGPT.chat",
 		"url": "https://www.basedgpt.chat/",
 		"repo": "Private",

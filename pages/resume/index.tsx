@@ -83,10 +83,6 @@ export default function resume() {
 			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"BasedGPT.chat"}</h4>
 			<p>An uncensored version of chat gpt built on the llama model utilizing the PygmalionAI. The backend may be offline due to high server fees and low user interactions </p>
 			</span>
-			<span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"XPixels.io"}</h4>
-			<p>An AI driven content site built on Next.js and React. The site displays AI generated models and will eventually allow users to generate their own lora models usign stable diffusion (18+)</p>
-			</span>
 		</div>
 		</div>
 		<div className={about.copy}>
@@ -145,9 +141,6 @@ export default function resume() {
 			</span>
 			<span>
 			<p style={{lineHeight: 1.5,}}>Member of web design startup Viben Technologies (www.viben.tech) focused on web development solutions.</p>
-			</span>
-			<span>
-			<p style={{lineHeight: 1.5,}}>Founder, creator, and developer of www.xpixels.io (adult content site)</p>
 			</span>
 			<span>
 			<p style={{lineHeight: 1.5,}}>One of the creators, and developers of www.basedgpt.chat (uncensored version of chatgpt)</p>
