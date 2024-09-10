@@ -17,7 +17,7 @@ export default function Education() {
                 <SectionTitle
                     title="Education"
                     preTitle="Formal"
-                    subTitle="I'm a Junior studying Computer Science with a focus in Software Engineering at Florida Polytechnic University in Lakeland, Florida."
+                    subTitle="I'm a Senior studying Computer Science with a focus in Software Engineering at Florida Polytechnic University in Lakeland, Florida."
                 />
                 <section className={career.area}>
 

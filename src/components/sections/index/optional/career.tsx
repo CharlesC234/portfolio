@@ -32,6 +32,24 @@ export default function Career() {
 
 						<div className={career.companyContent}>
 							<span className={career.companyHeader}>
+						<h3>Software Development Research Assistant at Iron EagleX</h3>
+									<h4>Part Time · May 2024 - Present</h4>
+							</span>
+							<p style={{fontSize: 15}}>
+							Experience creating full-stack web applications in an agile development setting, working in a software developer team of 5-10 developers. I learned how to make APIs in .net, as well as SQL database integration, and building front-ends with React.js. I am also currently in the process of getting my Top Secret Clearance (TS/SCI) as of September 2024. 
+							</p>
+						</div>
+						<div className={career.companyAlt}></div>
+
+						<Badges list={IEX} block="stack" fullContainer="fullContainer" color={undefined}/>
+						</div>
+				</section>
+				<div style={{height: 40}}></div>
+				<section className={career.area}>
+						<div className={career.position}>
+
+						<div className={career.companyContent}>
+							<span className={career.companyHeader}>
 						<h3>Software Development Research Project At Florida Polytechnic University</h3>
 									<h4>Part Time · January 2024 - Present</h4>
 							</span>
@@ -119,4 +137,17 @@ const FloridaPoly = [
 	{ key: 'python', name: 'Python', type: 'devicon' },
 	{ key: 'npm', name: 'NPM', type: 'devicon' },
 	{ key: 'linode', name: 'Linode', type: 'devicon' },
+];
+
+const IEX = [
+	{ key: 'dotnet', name: '.NET', type: 'devicon' },
+	{ key: 'c#', name: 'C#', type: 'devicon' },
+	{ key: 'postgresql', name: 'PostgreSQL', type: 'devicon' },
+	{ key: 'jira', name: 'Jira', type: 'devicon' },
+	{ key: 'agile', name: 'Agile', type: 'devicon' },
+	{ key: 'git', name: 'Git', type: 'devicon' },
+	{ key: 'npm', name: 'NPM', type: 'devicon' },
+	{ key: 'react', name: 'React', type: 'devicon' },
+	{ key: 'SQL', name: 'SQL', type: 'devicon' },
+	{ key: 'Swagger', name: 'Swagger', type: 'devicon' },
 ];
