@@ -54,16 +54,16 @@ export default function resume() {
      		</span>
 			 <h3>{"Experience"}</h3>
 			 <span>
+			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Iron EagleX, Tampa, Fl — Software Development Research Assistant"}</h4>
+			<p style={{fontSize: 13, marginBottom: 5}}>May 2024 - Present</p><p style={{lineHeight: 1.5,}}>Gained Experience creating full-stack web applications in an agile development setting, working in a software developer team of 5-10 developers. Learned how to make APIs in .net, SQL database integration, and front-end development with React.js</p>
+			</span>
+			 <span>
 			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Florida Polytechnic University, Lakeland, Fl — Software Development Research Under Professor Denis Ulybyshev"}</h4>
 			<p style={{fontSize: 13, marginBottom: 5}}>January 2024 - Present</p><p style={{lineHeight: 1.5,}}>Helping a professor create a full stack web application called FIXIS (NFC based information system for smart cities and campuses) using .NET, C#, PostgreSQL, and Docker.</p>
 			</span>
 			<span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"SOFWERX Computer Science Internship, Tampa, Fl"}</h4>
+			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"SOFWERX, Tampa, Fl — Computer Science Internship"}</h4>
 			<p style={{fontSize: 13, marginBottom: 5}}>May 2023 - December 2023</p><p style={{lineHeight: 1.5,}}>Full stack development with Next.js and Bootstrap, AWS deployment, headless CMS integration, UI/UX design in Figma, version control using GIT.  Fast development and prototyping using open-source repositories.</p>
-			</span>
-			<span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Florida Polytechnic University, Lakeland, Fl — University Registrar Student Worker"}</h4>
-			<p style={{fontSize: 13, marginBottom: 5}}>August 2022 - August 2023</p><p style={{lineHeight: 1.5,}}>Experience with data entry and data analysis. Worked in an office setting, primarily providing service to students and entering student data. Experience in Excel organizing and sorting data.</p>
 			</span>
 		</div>
 		<div className={about.container}>
