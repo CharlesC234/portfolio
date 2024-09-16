@@ -1,18 +1,18 @@
 {
 	"Websites": [
 		{
-			"person": "charlescahill.dev",
-			"link": "https://charlescahill.dev/",
-			"note": ""
-		},
-		{
 			"person": "basedgpt.chat",
 			"link": "https://basedgpt.chat/",
 			"note": ""
 		},
 		{
-			"person": "viben.tech",
-			"link": "https://viben.tech/",
+			"person": "bookwise",
+			"link": "https://virtuallibrary.up.railway.app/",
+			"note": ""
+		},
+		{
+			"person": "vlics",
+			"link": "http://34.28.131.121:3000/",
 			"note": ""
 		},
 		{
@@ -20,7 +20,6 @@
 			"link": "https://sofwerx.org/",
 			"note": ""
 		}
-
 	],
 
 	"links": [

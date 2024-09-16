@@ -30,7 +30,7 @@
 		"url": "https://virtuallibrary.up.railway.app/",
 		"repo": "Public",
 		"descriptionTitle": "A full-stack web application",
-		"description": "built on Next.js, AWS, and JS. allowing users to make accounts and add book PDFs to view later or to share publically on the site. Check it out for yourself by clicking here",
+		"description": "built on Next.js, AWS, and JS, allowing users to make accounts and add book PDFs to view later or to share publically on the site. Check it out for yourself by clicking here",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
@@ -50,7 +50,7 @@
 	},
 	{
 		"project": "VLICS",
-		"url": "http://34.28.131.121:3000/objects",
+		"url": "http://34.28.131.121:3000",
 		"repo": "Private",
 		"descriptionTitle": "A full-stack web application",
 		"description": "built on Next.js, C# and PostgresSQL. The app allows users to scan an NFC tag located on a real world object to get information about that object. Mainly focused on helping visually impared users via a read out loud feature",
@@ -91,32 +91,6 @@
 			{ "key": "pygmalionai",			"name": "PygmalionAI", 	"type": "devicon" },
 			{ "key": "llama",			"name": "LLAMA", 	"type": "devicon" },
 			{ "key": "python",			"name": "Python", 	"type": "devicon" }
-
-		]
-	},
-	{
-		"project": "viben.tech",
-		"url": "https://viben.tech",
-		"repo": "Private",
-		"descriptionTitle": "A buisness portfolio website",
-		"description": "built on HTML, CSS, and JavaScript. A fast and responsive site meant for marketing and providing insight.",
-		"imageOptions": [
-			{ "key": "size", 		"value": "large" }
-		],
-		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "415", "w": "510", "l": "500", "url": "/img/vibentech.png" }
-		],
-		"stack": [
-			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
-			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
-			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
-			{ "key": "python",			"name": "python", 	"type": "devicon" },
-			{ "key": "typescript",			"name": "TypeScript", 	"type": "devicon" },
-			{ "key": "aws",			"name": "AWS", 	"type": "devicon" },
-			{ "key": "tailwindcss", "name": "Tailwind", 	"type": "devicon" },
-			{ "key": "cloudflare",			"name": "Cloudflare", 	"type": "devicon" }
 
 		]
 	},
@@ -165,6 +139,32 @@
 			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
 			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
 			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" }
+
+		]
+	},
+	{
+		"project": "viben.tech",
+		"url": "https://viben.tech",
+		"repo": "Private",
+		"descriptionTitle": "A buisness portfolio website",
+		"description": "built on HTML, CSS, and JavaScript. A fast and responsive site meant for marketing and providing insight.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "left", "h": "415", "w": "510", "l": "500", "url": "/img/vibentech.png" }
+		],
+		"stack": [
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "html5",		"name": "HTML5", 		"type": "devicon" },
+			{ "key": "css3",		"name": "CSS3", 		"type": "devicon" },
+			{ "key": "sass",		"name": "SCSS", 		"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{ "key": "python",			"name": "python", 	"type": "devicon" },
+			{ "key": "typescript",			"name": "TypeScript", 	"type": "devicon" },
+			{ "key": "aws",			"name": "AWS", 	"type": "devicon" },
+			{ "key": "tailwindcss", "name": "Tailwind", 	"type": "devicon" },
+			{ "key": "cloudflare",			"name": "Cloudflare", 	"type": "devicon" }
 
 		]
 	},
