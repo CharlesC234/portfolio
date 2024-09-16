@@ -31,7 +31,7 @@ export default function resume() {
 					subTitle="ccahill0901@floridpoly.edu"
 				/>
 	<button className={`button ${button.secondary}`} style={{marginRight: 0, alignSelf: 'center', borderWidth: 2}}>
-		<a href="/img/Charles_Cahill_Resume.pdf" download="charles_cahill_resume.pdf">View Formal Resume</a></button>
+		<a href="/img/Charles_Cahill_Resume_SEP_2024 - Charles_Cahill_Resume.pdf" download="charles_cahill_resume.pdf">View Formal Resume</a></button>
 	<section className={about.content}>
 	<div className={about.copy}>
 		<div className={about.container}>
@@ -146,7 +146,7 @@ export default function resume() {
 			<p style={{lineHeight: 1.5,}}>One of the creators, and developers of www.basedgpt.chat (uncensored version of chatgpt)</p>
 			</span>
 			<span>
-			<p style={{lineHeight: 1.5,}}>Volunteer occasionaly with University Events such as PolyCon </p>
+			<p style={{lineHeight: 1.5,}}>Currently  in the process of getting a Top Secret (TS/SCI) clearance </p>
 			</span>
 		</div>
 		</div>
