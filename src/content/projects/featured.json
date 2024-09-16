@@ -80,7 +80,7 @@
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "right", "h": "700", "w": "300", "l": "500", "url": "/img/basedgpt4.png" }
+			{ "key": "portfolio", "hover": "right", "h": "700", "w": "300", "l": "500", "url": "/img/BasedGPT4.png" }
 		],
 		"stack": [
 			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
