@@ -58,15 +58,15 @@ export default function resume() {
 			<p style={{fontSize: 13, marginBottom: 5}}>January 2025 - Present</p><p style={{lineHeight: 1.5,}}>Full-stack development internship utilizing HTML, CSS, PHP, Python, and SQL to build applications for the company’s financial clients. Working on a tram of 5-10 developers in an agile setting.</p>
 			</span>
 			<span>
-			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Florida Polytechnic University, Lakeland, Fl — Software Development Research Under Professor Denis Ulybyshev"}</h4>
+			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Florida Polytechnic University, Lakeland, Fl — Software Development Research Assistant"}</h4>
 			<p style={{fontSize: 13, marginBottom: 5}}>January 2024 - Present</p><p style={{lineHeight: 1.5,}}>Helping a professor (Denis Ulybysehv) create a full-stack web application called VLICS+ (NFC based information system for smart cities and campuses) using .NET, C#, PostgreSQL, and Docker to better assist visually impared individuals navigate campus</p>
 			</span>
 			 <span>
-			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Iron EagleX, Tampa, Fl — Software Development Intern / Research Assistant"}</h4>
+			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Iron EagleX, Tampa, Fl — Software Engineering Intern"}</h4>
 			<p style={{fontSize: 13, marginBottom: 5}}>May 2024 - December 2024</p><p style={{lineHeight: 1.5,}}>Gained Experience creating full-stack web applications in an agile development setting, working in a software developer team of 5-10 developers. Learned how to make APIs in .net, SQL database integration, and front-end development with React.js</p>
 			</span>
 			<span>
-			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"SOFWERX, Tampa, Fl — Computer Science Internship"}</h4>
+			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"SOFWERX, Tampa, Fl — Computer Science Intern"}</h4>
 			<p style={{fontSize: 13, marginBottom: 5}}>May 2023 - December 2023</p><p style={{lineHeight: 1.5,}}>Full stack development with Next.js and Bootstrap, AWS deployment, headless CMS integration, UI/UX design in Figma, version control using GIT.  Fast development and prototyping using open-source repositories.</p>
 			</span>
 		</div>
@@ -124,8 +124,8 @@ export default function resume() {
 			<p>Experience in React Native JavaScript development for Mobile applications. Additional experience with backend development using javascript frameworks such as NodeJS and ExpressJS combined with no-SQL databases.</p>
 			</span>
 			<span>
-			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Various Static Webpage Design Projects"}</h4>
-			<p>Experience in HTML and CSS, designed multiple website front-ends. Some experience with backend, such as REST API projects using NodeJS and Express.</p>
+			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Full-Stack and Static Web Development"}</h4>
+			<p>Experience building multiple full stack applications (such as Bookwise, VLICS, OTSCustomDesigns, and SOFWERX.org) primarily with Next.js, React.js, Express.js, C# (.NET), PostgreSQL, and Strapi CMS, as well as Static websites such as TheCosmics.XYZ, and Viben.tech</p>
 			</span>
 			<span>
 			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"BasedGPT.chat"}</h4>
@@ -147,11 +147,13 @@ export default function resume() {
 			 <h3 style={{fontSize: 25, color: 'rgba(255,255,255,.75)', marginBottom: 15}}>{"Skills"}</h3>
 			<span>
 			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Programming languages and frameworks"}</h4>
-			<p style={{lineHeight: 1.5,}}> JavaScript, React.js, React Native, Next.js, Express.js, Python, C, C++, Java, Tailwind, Bootstrap, HTML, CSS, GIT</p>
+			<p style={{lineHeight: 1.5,}}> 
+JavaScript, React.js, React Native, Next.js, Express.js, MongoDB, Python, C, C++, Java, Tailwind, Bootstrap, HTML, CSS, PHP, GIT, C#,  SQL, PostgreSQL, Docker, .NET, Linux / Unix, Experience in AWS  and other services including Amplify, CloudFront, S3, EC2, Open AI, Strapi.io CMS, Vercel, Railway, and Linode.
+</p>
 			</span>
 			<span>
 			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Tools"}</h4>
-			<p style={{lineHeight: 1.5,}}>Visual Studio, Open AI, Open-Source Software,</p>
+			<p style={{lineHeight: 1.5,}}>Visual Studio, Open AI, Open-Source Software, StrapiCMS, Adobe Illustrator, Ubuntu, Unix, GIT</p>
 			<p style={{lineHeight: 1.5,}}>Experience in AWS services including Amplify, CloudFront, S3, EC2 </p>
 			</span>
 		</div>

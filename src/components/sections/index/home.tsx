@@ -25,7 +25,7 @@ export default function Home() {
 				<SectionTitle
 					title="About Me"
 					preTitle="Synopsis"
-					subTitle="I'm a Senior at Florida Polytechnic University in Lakeland, Florida, majoring in Computer Science with a focus on Software Engineering. My tech journey began with a love for creating and evolved into a passion for coding in high school. I believe success in software engineering is achievable with just an idea, strong passion, and dedicated effort. This belief fuels my studies and personal projects. In this field, imagination is the only limit. As I seek internships and refine my skills, I'm excited to contribute to innovative projects and collaborate with like-minded individuals who share a similar vision for pushing the boundaries of what's possible through software."
+					subTitle="I'm a Senior at Florida Polytechnic University in Lakeland, Florida, majoring in Computer Science with a focus in Software Engineering. My tech journey began with a love for creating and evolved into a passion for coding in high school. I believe success in Software Engineering is achievable with just an idea, strong passion, and dedicated effort. This belief fuels my studies and personal projects. In this field, imagination is the only limit. As I seek internships and refine my skills, I'm excited to contribute to innovative projects and collaborate with like-minded individuals who share a similar vision for pushing the boundaries of what's possible through software."
 				/>
 				<section className={about.content}>
 					<div className={about.image} style={{zIndex: 5}}>

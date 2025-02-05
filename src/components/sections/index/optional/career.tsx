@@ -33,7 +33,7 @@ export default function Career() {
 						<div className={career.companyContent}>
 							<span className={career.companyHeader}>
 						<h3>Full-Stack Development Intern at Everglades Financial, LLC</h3>
-									<h4>Part-Time Internship · January 2025 - Present</h4>
+									<h4>Part Time Internship · January 2025 - Present</h4>
 							</span>
 							<p style={{fontSize: 15}}>
 							Full-stack development internship utilizing HTML, CSS, PHP, Python, and SQL to build applications for the company’s financial clients. Working on a tram of 5-10 developers in an agile setting.
@@ -51,7 +51,7 @@ export default function Career() {
 						<div className={career.companyContent}>
 							<span className={career.companyHeader}>
 						<h3>Software Development Research Assistant At Florida Polytechnic University</h3>
-									<h4>Part-Time Internship · January 2024 - Present</h4>
+									<h4>Part Time · January 2024 - Present</h4>
 							</span>
 							<p style={{fontSize: 15}}>
 							Helping a professor (Denis Ulybysehv) create a full-stack web application called VLICS+ (NFC based information system for smart cities and campuses) using .NET, C#, PostgreSQL, and Docker to better assist visually impared individuals navigate campus
@@ -68,8 +68,8 @@ export default function Career() {
 
 						<div className={career.companyContent}>
 							<span className={career.companyHeader}>
-						<h3>Software Development Intern at Iron EagleX</h3>
-									<h4>Part-Time Internship · May 2024 - December 2024</h4>
+						<h3>Software Engineering Intern at Iron EagleX</h3>
+									<h4>Part Time Internship · May 2024 - December 2024</h4>
 							</span>
 							<p style={{fontSize: 15}}>
 							Experience creating full-stack web applications in an agile development setting, working in a software developer team of 5-10 developers. I learned how to make APIs in .net, as well as SQL database integration, and building front-ends with React.js. I am also currently in the process of getting my Top Secret Clearance (TS/SCI) as of September 2024. 
