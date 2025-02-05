@@ -44,7 +44,7 @@ export default function Home() {
 							containerClass={about.container}
 							iconClass={about.icon}
 							icon={[ 'fas', 'user' ]}
-							copy="I am currently looking for internships in the field of Software Engineering and Development. I learn the most from hands on experience, and I want to continue to challange myself in areas I am not as proficent in. I want to innovate and make an impact through the software I build, as well as get additional experience in the industry."
+							copy="I am currently looking for entry-level full-time opportunities in the field of Software Engineering and Development. I want to innovate and make an impact through the software I build, as well as get additional experience in the industry."
 						/>
 					</div>
 				</section>

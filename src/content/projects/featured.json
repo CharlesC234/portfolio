@@ -74,7 +74,7 @@
 		"project": "BasedGPT.chat",
 		"url": "https://www.basedgpt.chat/",
 		"repo": "Private",
-		"descriptionTitle": "An AI Chatbot",
+		"descriptionTitle": "An AI chatbot",
 		"description": "built on the llama model utilizing PygmalionAI, as well as Chatbot UI for the frontend. An uncensored ChatGPT. Offline due to high running fees",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
@@ -92,6 +92,29 @@
 			{ "key": "llama",			"name": "LLAMA", 	"type": "devicon" },
 			{ "key": "python",			"name": "Python", 	"type": "devicon" }
 
+		]
+	},
+	{
+		"project": "OTSCustomDesigns",
+		"url": "https://otscustomdesigns-frontend-production.up.railway.app/",
+		"repo": "Private",
+		"descriptionTitle": "A small business eccomerce site",
+		"description": "built on Next.js, Snipcart, Strapi CMS, and Tailwind CSS. The site was built for a small business to sell custom woodworking designs",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "700", "w": "300", "l": "500", "url": "/img/OTSCustomDesigns.png" }
+		],
+		"stack": [
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "Next.js", 	"name": "Next.js", 	"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{ "key": "railway",			"name": "railway", 	"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "tailwindcss", 	"name": "Tailwind", "type": "devicon" },
+			{ "key": "snipcart", 	"name": "Snipcart", 	"type": "devicon" },
+			{"key": "strapi", "name": "Strapi", "type": "devicon"}
 		]
 	},
 	{

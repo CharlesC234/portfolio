@@ -31,20 +31,20 @@ export default function resume() {
 					subTitle="ccahill0901@floridpoly.edu"
 				/>
 	<button className={`button ${button.secondary}`} style={{marginRight: 0, alignSelf: 'center', borderWidth: 2}}>
-		<a href="/img/Charles_Cahill_Resume_SEP_2024 - Charles_Cahill_Resume.pdf" download="charles_cahill_resume.pdf">View Formal Resume</a></button>
+		<a href="/img/Charles_Cahill_Resume.pdf" download="charles_cahill_resume.pdf">Download Formal Resume</a></button>
 	<section className={about.content}>
 	<div className={about.copy}>
 		<div className={about.container}>
       		<span className={about.icon}>
         	<Icon icon={['fas', 'building-columns']} />
      		</span>
-			 <h3>{"Education"}</h3>
+			 <h3 style={{fontSize: 25, color: 'rgba(255,255,255,.75)', marginBottom: 15}}>{"Education"}</h3>
 			<span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Florida Polytechnic University, Lakeland, FL — Bachelors in Computer Science"}</h4>
+			<h4 style={{fontSize: 16, fontWeight: '800', color: 'rgba(255,255,255,.75)', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Florida Polytechnic University, Lakeland, FL — Bachelors in Computer Science"}</h4>
 			<p style={{fontSize: 13, marginBottom: 5}}>August 2021 - May 2025</p><p style={{lineHeight: 1.5,}}>Studying Computer Science with a concentration in Software Engineering Anticipated graduation May 2025.</p>
 			</span>
 			<span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Marjory Stoneman Douglas High School, Parkland, FL — High School Diploma"}</h4>
+			<h4 style={{fontSize: 16, fontWeight: '800', color: 'rgba(255,255,255,.75)', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Marjory Stoneman Douglas High School, Parkland, FL — High School Diploma"}</h4>
 			<p style={{fontSize: 13, marginBottom: 5}}>August 2017 - May 2021</p>
 			</span>
 		</div>
@@ -52,81 +52,105 @@ export default function resume() {
       		<span className={about.icon}>
         	<Icon icon={['fas', 'user']} />
      		</span>
-			 <h3>{"Experience"}</h3>
+			 <h3 style={{fontSize: 25, color: 'rgba(255,255,255,.75)', marginBottom: 15}}>{"Experience"}</h3>
 			 <span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Iron EagleX, Tampa, Fl — Software Development Research Assistant"}</h4>
-			<p style={{fontSize: 13, marginBottom: 5}}>May 2024 - Present</p><p style={{lineHeight: 1.5,}}>Gained Experience creating full-stack web applications in an agile development setting, working in a software developer team of 5-10 developers. Learned how to make APIs in .net, SQL database integration, and front-end development with React.js</p>
-			</span>
-			 <span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Florida Polytechnic University, Lakeland, Fl — Software Development Research Under Professor Denis Ulybyshev"}</h4>
-			<p style={{fontSize: 13, marginBottom: 5}}>January 2024 - Present</p><p style={{lineHeight: 1.5,}}>Helping a professor create a full stack web application called FIXIS (NFC based information system for smart cities and campuses) using .NET, C#, PostgreSQL, and Docker.</p>
+			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Everglades Financial, LLC, Lakeland, Fl — Full-Stack Development Intern"}</h4>
+			<p style={{fontSize: 13, marginBottom: 5}}>January 2025 - Present</p><p style={{lineHeight: 1.5,}}>Full-stack development internship utilizing HTML, CSS, PHP, Python, and SQL to build applications for the company’s financial clients. Working on a tram of 5-10 developers in an agile setting.</p>
 			</span>
 			<span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"SOFWERX, Tampa, Fl — Computer Science Internship"}</h4>
+			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Florida Polytechnic University, Lakeland, Fl — Software Development Research Under Professor Denis Ulybyshev"}</h4>
+			<p style={{fontSize: 13, marginBottom: 5}}>January 2024 - Present</p><p style={{lineHeight: 1.5,}}>Helping a professor (Denis Ulybysehv) create a full-stack web application called VLICS+ (NFC based information system for smart cities and campuses) using .NET, C#, PostgreSQL, and Docker to better assist visually impared individuals navigate campus</p>
+			</span>
+			 <span>
+			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Iron EagleX, Tampa, Fl — Software Development Intern / Research Assistant"}</h4>
+			<p style={{fontSize: 13, marginBottom: 5}}>May 2024 - December 2024</p><p style={{lineHeight: 1.5,}}>Gained Experience creating full-stack web applications in an agile development setting, working in a software developer team of 5-10 developers. Learned how to make APIs in .net, SQL database integration, and front-end development with React.js</p>
+			</span>
+			<span>
+			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"SOFWERX, Tampa, Fl — Computer Science Internship"}</h4>
 			<p style={{fontSize: 13, marginBottom: 5}}>May 2023 - December 2023</p><p style={{lineHeight: 1.5,}}>Full stack development with Next.js and Bootstrap, AWS deployment, headless CMS integration, UI/UX design in Figma, version control using GIT.  Fast development and prototyping using open-source repositories.</p>
 			</span>
 		</div>
 		<div className={about.container}>
       		<span className={about.icon}>
-        	<Icon icon={['fas', 'code']} />
+        	<Icon icon={['fas', 'book']} />
      		</span>
-			 <h3>{"Personal Projects"}</h3>
-			<span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Full-Stack Mobile Development"}</h4>
-			<p>Experience in React Native JavaScript development for Mobile applications. Additional experience with backend development using javascript frameworks such as NodeJS and ExpressJS combined with no-SQL databases.</p>
+			 <h3 style={{fontSize: 25, color: 'rgba(255,255,255,.75)', marginBottom: 15}}>{"Relevant Coursework"}</h3>
+			 <span>
+			<h4 style={{fontSize: 16, fontWeight: '800', color: 'rgba(255,255,255,.75)', marginTop: 5, marginBottom: 2.5, textTransform: 'initial'}}>{"COP3710"}</h4>
+			<p>SQL Database Design and Development</p>
 			</span>
 			<span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Various Static Webpage Design Projects"}</h4>
-			<p>Experience in HTML and CSS, designed multiple website front-ends. Some experience with backend, such as REST API projects using NodeJS and Express.</p>
+			<h4 style={{fontSize: 16, fontWeight: '800', color: 'rgba(255,255,255,.75)', marginTop: 5, marginBottom: 2.5, textTransform: 'initial'}}>{"CEN4722"}</h4>
+			<p>UI/UX Design and Development in Figma</p>
 			</span>
 			<span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"BasedGPT.chat"}</h4>
-			<p>An uncensored version of chat gpt built on the llama model utilizing the PygmalionAI. The backend may be offline due to high server fees and low user interactions </p>
+			<h4 style={{fontSize: 16, fontWeight: '800', color: 'rgba(255,255,255,.75)', marginTop: 5, marginBottom: 2.5, textTransform: 'initial'}}>{"CEN4065"}</h4>
+			<p>Software Design and Architecture</p>
+			</span>
+			<span>
+			<h4 style={{fontSize: 16, fontWeight: '800', color: 'rgba(255,255,255,.75)', marginTop: 5, marginBottom: 2.5, textTransform: 'initial'}}>{"CEN4072"}</h4>
+			<p>Software Verification and Quality Assurance in Java and JUnit</p>
+			</span>
+			<span>
+			<h4 style={{fontSize: 16, fontWeight: '800', color: 'rgba(255,255,255,.75)',  marginTop: 5, marginBottom: 2.5, textTransform: 'initial'}}>{"COP3710"}</h4>
+			<p>Mobile Device Applications in Java (Android)</p>
+			</span>
+			<span>
+			<h4 style={{fontSize: 16, fontWeight: '800', color: 'rgba(255,255,255,.75)', marginTop: 5, marginBottom: 2.5, textTransform: 'initial'}}>{"COP3809"}</h4>
+			<p>Object Oriented Programming in Java and JavaFX GUI development</p>
+			</span>
+			<span>
+			<h4 style={{fontSize: 16, fontWeight: '800', color: 'rgba(255,255,255,.75)', marginTop: 5, marginBottom: 2.5, textTransform: 'initial'}}>{"COP3337"}</h4>
+			<p>Object Oriented Programming in C++</p>
+			</span>
+			<span>
+			<h4 style={{fontSize: 16, fontWeight: '800', color: 'rgba(255,255,255,.75)', marginTop: 5, marginBottom: 2.5, textTransform: 'initial'}}>{"COP2271"}</h4>
+			<p>Computational Programming in C</p>
+			</span>
+			<span>
+			<h4 style={{fontSize: 16, fontWeight: '800', color: 'rgba(255,255,255,.75)', marginTop: 5, marginBottom: 2.5, textTransform: 'initial'}}>{"COP3710"}</h4>
+			<p>Data Structures in C++</p>
 			</span>
 		</div>
 		</div>
 		<div className={about.copy}>
 		<div className={about.container}>
       		<span className={about.icon}>
-        	<Icon icon={['fas', 'book']} />
+        	<Icon icon={['fas', 'code']} />
      		</span>
-			 <h3>{"Relevant Coursework"}</h3>
+			 <h3 style={{fontSize: 25, color: 'rgba(255,255,255,.75)', marginBottom: 15}}>{"Personal Projects"}</h3>
 			<span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 2.5, textTransform: 'initial'}}>{"COP3809"}</h4>
-			<p>Object Oriented Programming in Java and JavaFX GUI development</p>
+			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Full-Stack Mobile Development"}</h4>
+			<p>Experience in React Native JavaScript development for Mobile applications. Additional experience with backend development using javascript frameworks such as NodeJS and ExpressJS combined with no-SQL databases.</p>
 			</span>
 			<span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 2.5, textTransform: 'initial'}}>{"COP3337"}</h4>
-			<p>Object Oriented Programming in C++</p>
+			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Various Static Webpage Design Projects"}</h4>
+			<p>Experience in HTML and CSS, designed multiple website front-ends. Some experience with backend, such as REST API projects using NodeJS and Express.</p>
 			</span>
 			<span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 2.5, textTransform: 'initial'}}>{"COP2271"}</h4>
-			<p>Computational Programming in C</p>
+			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"BasedGPT.chat"}</h4>
+			<p>An uncensored version of chat gpt built on the llama model utilizing the PygmalionAI. The backend may be offline due to high server fees and low user interactions </p>
 			</span>
 			<span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 2.5, textTransform: 'initial'}}>{"COP3353"}</h4>
-			<p>Unix and Networking</p>
+			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Bookwise"}</h4>
+			<p>A full-stack web application built on Next.js, AWS, and JS, allowing users to make accounts and add book PDFs to view later or to share publicly with other users on the site. Check it out for yourself in projects!</p>
 			</span>
 			<span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 2.5, textTransform: 'initial'}}>{"COP3710"}</h4>
-			<p>Data Structures in C++</p>
-			</span>
-			<span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 2.5, textTransform: 'initial'}}>{"COP3710"}</h4>
-			<p>Mobile Device Applications in Java (Android)</p>
+			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Cloud Connected PID Training System for TriNova Inc."}</h4>
+			<p>A senior capstone project, with the goal of  designing and building a physical training system to educate a trainee on how to set PID values for a 2-pump input, random output water reservoir system, including a cloud implementation for data viewing built with Next.js and reference to Endress + Hauser Netilion REST API. </p>
 			</span>
 		</div>
 		<div className={about.container}>
       		<span className={about.icon}>
         	<Icon icon={['fas', 'screwdriver-wrench']} />
      		</span>
-			 <h3>{"Skills"}</h3>
+			 <h3 style={{fontSize: 25, color: 'rgba(255,255,255,.75)', marginBottom: 15}}>{"Skills"}</h3>
 			<span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Programming languages and frameworks"}</h4>
+			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Programming languages and frameworks"}</h4>
 			<p style={{lineHeight: 1.5,}}> JavaScript, React.js, React Native, Next.js, Express.js, Python, C, C++, Java, Tailwind, Bootstrap, HTML, CSS, GIT</p>
 			</span>
 			<span>
-			<h4 style={{fontSize: 16, fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Tools"}</h4>
+			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"Tools"}</h4>
 			<p style={{lineHeight: 1.5,}}>Visual Studio, Open AI, Open-Source Software,</p>
 			<p style={{lineHeight: 1.5,}}>Experience in AWS services including Amplify, CloudFront, S3, EC2 </p>
 			</span>
@@ -135,18 +159,21 @@ export default function resume() {
       		<span className={about.icon}>
         	<Icon icon={['fas', 'person']} />
      		</span>
-			 <h3>{"Extracurriculars"}</h3>
+			 <h3 style={{fontSize: 25, color: 'rgba(255,255,255,.75)', marginBottom: 15}}>{"Leadership"}</h3>
 			<span>
 			<p style={{lineHeight: 1.5,}}>Eagle Scout</p>
 			</span>
 			<span>
-			<p style={{lineHeight: 1.5,}}>Member of web design startup Viben Technologies (www.viben.tech) focused on web development solutions.</p>
+			<p style={{lineHeight: 1.5,}}>In the process of obtaining a (TS/SCI) clearance through the DOD. Currently in possession of Interim Secret Clearance</p>
+			</span>
+			<span>
+			<p style={{lineHeight: 1.5,}}>Freelance web development (see portfolio), ecommerce and small business focused</p>
+			</span>
+			<span>
+			<p style={{lineHeight: 1.5,}}>Member of web design startup Viben Technologies (www.viben.tech) focused on web development solutions</p>
 			</span>
 			<span>
 			<p style={{lineHeight: 1.5,}}>One of the creators, and developers of www.basedgpt.chat (uncensored version of chatgpt)</p>
-			</span>
-			<span>
-			<p style={{lineHeight: 1.5,}}>Currently  in the process of getting a Top Secret (TS/SCI) clearance </p>
 			</span>
 		</div>
 		</div>

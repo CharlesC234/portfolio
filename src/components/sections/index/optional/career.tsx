@@ -32,16 +32,16 @@ export default function Career() {
 
 						<div className={career.companyContent}>
 							<span className={career.companyHeader}>
-						<h3>Software Development Research Assistant at Iron EagleX</h3>
-									<h4>Part Time · May 2024 - Present</h4>
+						<h3>Full-Stack Development Intern at Everglades Financial, LLC</h3>
+									<h4>Part-Time Internship · January 2025 - Present</h4>
 							</span>
 							<p style={{fontSize: 15}}>
-							Experience creating full-stack web applications in an agile development setting, working in a software developer team of 5-10 developers. I learned how to make APIs in .net, as well as SQL database integration, and building front-ends with React.js. I am also currently in the process of getting my Top Secret Clearance (TS/SCI) as of September 2024. 
+							Full-stack development internship utilizing HTML, CSS, PHP, Python, and SQL to build applications for the company’s financial clients. Working on a tram of 5-10 developers in an agile setting.
 							</p>
 						</div>
 						<div className={career.companyAlt}></div>
 
-						<Badges list={IEX} block="stack" fullContainer="fullContainer" color={undefined}/>
+						<Badges list={EFLLC} block="stack" fullContainer="fullContainer" color={undefined}/>
 						</div>
 				</section>
 				<div style={{height: 40}}></div>
@@ -50,16 +50,34 @@ export default function Career() {
 
 						<div className={career.companyContent}>
 							<span className={career.companyHeader}>
-						<h3>Software Development Research Project At Florida Polytechnic University</h3>
-									<h4>Part Time · January 2024 - Present</h4>
+						<h3>Software Development Research Assistant At Florida Polytechnic University</h3>
+									<h4>Part-Time Internship · January 2024 - Present</h4>
 							</span>
 							<p style={{fontSize: 15}}>
-							Helping a professor create a full stack web app called FIXIS (NFC based information system for smart cities and campuses) using .NET, C#, PostgreSQL, and Docker.
+							Helping a professor (Denis Ulybysehv) create a full-stack web application called VLICS+ (NFC based information system for smart cities and campuses) using .NET, C#, PostgreSQL, and Docker to better assist visually impared individuals navigate campus
 							</p>
 						</div>
 						<div className={career.companyAlt}></div>
 
 						<Badges list={FloridaPoly} block="stack" fullContainer="fullContainer" color={undefined}/>
+						</div>
+				</section>
+				<div style={{height: 40}}></div>
+				<section className={career.area}>
+						<div className={career.position}>
+
+						<div className={career.companyContent}>
+							<span className={career.companyHeader}>
+						<h3>Software Development Intern at Iron EagleX</h3>
+									<h4>Part-Time Internship · May 2024 - December 2024</h4>
+							</span>
+							<p style={{fontSize: 15}}>
+							Experience creating full-stack web applications in an agile development setting, working in a software developer team of 5-10 developers. I learned how to make APIs in .net, as well as SQL database integration, and building front-ends with React.js. I am also currently in the process of getting my Top Secret Clearance (TS/SCI) as of September 2024. 
+							</p>
+						</div>
+						<div className={career.companyAlt}></div>
+
+						<Badges list={IEX} block="stack" fullContainer="fullContainer" color={undefined}/>
 						</div>
 				</section>
 				<div style={{height: 40}}></div>
@@ -137,6 +155,8 @@ const FloridaPoly = [
 	{ key: 'python', name: 'Python', type: 'devicon' },
 	{ key: 'npm', name: 'NPM', type: 'devicon' },
 	{ key: 'linode', name: 'Linode', type: 'devicon' },
+	{ key: 'react', name: 'React', type: 'devicon' },
+	{ key: 'Next.JS', name: 'Next.js', type: 'devicon' },
 ];
 
 const IEX = [
@@ -150,4 +170,20 @@ const IEX = [
 	{ key: 'react', name: 'React', type: 'devicon' },
 	{ key: 'SQL', name: 'SQL', type: 'devicon' },
 	{ key: 'Swagger', name: 'Swagger', type: 'devicon' },
+];
+
+const EFLLC = [
+	{ key: 'JQuery', name: 'JQuery', type: 'devicon' },
+	{ key: 'Javascript', name: 'Javascript', type: 'devicon' },
+	{ key: 'Bootstrap', name: 'Bootstrap', type: 'devicon' },
+	{ key: 'CSS', name: 'CSS', type: 'devicon' },
+	{ key: 'HTML', name: 'HTML', type: 'devicon' },
+	{ key: 'Python', name: 'Python', type: 'devicon' },
+	{ key: 'PHP', name: 'PHP', type: 'devicon' },
+	{ key: 'docker', name: 'Docker', type: 'devicon' },
+	{ key: 'SQL', name: 'SQL', type: 'devicon' },
+	{ key: 'agile', name: 'Agile', type: 'devicon' },
+	{ key: 'git', name: 'Git', type: 'devicon' },
+	{ key: 'react', name: 'React', type: 'devicon' },
+	{ key: 'auth0', name: 'Auth0', type: 'devicon' },
 ];
