@@ -26,6 +26,28 @@
 		]
 	},
 	{
+		"project": "Cloud Connected PID Training System for TriNova",
+		"url": "https://trinova-ccpid-frontend.vercel.app/about/",
+		"repo": "Private",
+		"descriptionTitle": "A full-stack web application",
+		"description": "built on Next.js, Flask, Python, and PostgreSQL. The app connects to a physical device built by my team to train a user in municipal PID systems live now!",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "left", "h": "415", "w": "510", "l": "500", "url": "/img/CCPID2.png" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
+			{ "key": "flask", 		"name": "Flask", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{"key": "python", "name": "Python", "type": "devicon"},
+			{"key": "tailwindcss", "name": "TailwindCSS", "type": "devicon"},
+			{"key": "postgresql", "name": "PostgreSQL", "type": "devicon"}
+		]
+	},
+	{
 		"project": "Bookwise",
 		"url": "https://virtuallibrary.up.railway.app/",
 		"repo": "Public",
@@ -53,7 +75,7 @@
 		"url": "http://34.28.131.121:3000",
 		"repo": "Private",
 		"descriptionTitle": "A full-stack web application",
-		"description": "built on Next.js, C# and PostgresSQL. The app allows users to scan an NFC tag located on a real world object to get information about that object. Mainly focused on helping visually impared users via a read out loud feature",
+		"description": "built on Next.js, C# and PostgresSQL. The app allows users to scan an NFC tag located on a real world object to get information about that object. Mainly focused on helping visually impared users via a read out loud feature. Live now!",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
@@ -99,7 +121,7 @@
 		"url": "https://otscustomdesigns-frontend-production.up.railway.app/",
 		"repo": "Private",
 		"descriptionTitle": "A small business eccomerce site",
-		"description": "built on Next.js, Snipcart, Strapi CMS, and Tailwind CSS. The site was built for a small business to sell custom woodworking designs",
+		"description": "built on Next.js, Snipcart, Strapi CMS, and Tailwind CSS. The site was built for a small business to sell custom woodworking designs. Live now!",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
@@ -122,7 +144,7 @@
 		"url": "https://sofwerx.org",
 		"repo": "Private",
 		"descriptionTitle": "A full-stack industry-grade site",
-		"description": "built on Next.js, React, and Bootstrap, utilizing a headless cms. This website was a team effort at SOFWERX. A fast and responsive multi-page application.",
+		"description": "built on Next.js, React, and Bootstrap, utilizing a headless cms. This website was a team effort at SOFWERX. A fast and responsive multi-page application. Live now!",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],

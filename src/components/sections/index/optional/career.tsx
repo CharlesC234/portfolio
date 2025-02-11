@@ -111,6 +111,22 @@ export default function Career() {
 					"From the moment Charles joined SOFWERX as an intern, he immediately impressed me with his proficiency in JavaScript, particularly at a time when he was facing challenges in that area. After providing him with guidance on how to use React/Next.js 13 and Strapi, Charles quickly excelled, designing several websites and applications. He possesses an insatiable desire to learn new things. Though Charles is quiet and reserved, his mind is always active, constantly thinking of ways to improve and optimize code."
 					</p>
 				</div>
+
+				<div className={career.companyAlt}></div>
+				</div>
+
+				<div className={career.position} style={{marginTop: 50}}>
+
+				<div className={career.companyContent}>
+					<span className={career.companyHeader}>
+				<h3>Denis Ulybyshev</h3>
+							<h4 style={{marginTop: 5, textTransform: 'initial', fontSize: 14, fontWeight: '800'}}>Assistant Professor in the Department of Computer Science at Florida Polytechnic University</h4>
+					</span>
+					<p>
+					"Charles demonstrated solid programming skills in developing front-end and back-end, including communication with PostgreSQL relational database management system. He contributed to the academic research project "Visually Impaired Friendly Information System for Smart Cities"
+					</p>
+				</div>
+
 				<div className={career.companyAlt}></div>
 				</div>
 				</section>
