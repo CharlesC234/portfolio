@@ -33,11 +33,11 @@ const BackToTop = () => {
 
     return (
         <>
-            {isVisible && (
+            {/* {isVisible && (
                 <button className="back-to-top" onClick={scrollToTop}>
                     <FontAwesomeIcon icon={faChevronUp} />
                 </button>
-            )}
+            )} */}
 
 
         </>
