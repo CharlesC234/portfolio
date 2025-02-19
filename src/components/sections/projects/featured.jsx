@@ -89,14 +89,6 @@ export default function FeaturedProjects() {
 				<span className={css.afterGlowBg}></span>
 			</div>
 
-			<div className={css.bgContainer} style={{height: 5000}}>
-				<span className={css.orbitalBg}>
-					<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroLeft} ${css.heroOrbital}`}></span></span>
-					<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroCenter}`}></span></span>
-					<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroRight} ${css.heroOrbital}`}></span></span>
-				</span>
-				<span className={css.afterGlowBg}></span>
-			</div>
 
 			<div className={css.bgContainer} style={{height: 2000}}>
 				<span className={css.orbitalBg}>
@@ -107,16 +99,8 @@ export default function FeaturedProjects() {
 				<span className={css.afterGlowBg}></span>
 			</div>
 
-			<div className={css.bgContainer} style={{marginTop: 3000}}>
-				<span className={css.orbitalBg}>
-					<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroLeft} ${css.heroOrbital}`}></span></span>
-					<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroCenter}`}></span></span>
-					<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroRight} ${css.heroOrbital}`}></span></span>
-				</span>
-				<span className={css.afterGlowBg}></span>
-			</div>
 
-			<div className={css.bgContainer} style={{marginTop: 4000}}>
+			<div className={css.bgContainer} style={{marginTop: 7000}}>
 				<span className={css.orbitalBg}>
 					<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroLeft} ${css.heroOrbital}`}></span></span>
 					<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroCenter}`}></span></span>
