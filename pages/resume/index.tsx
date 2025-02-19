@@ -66,7 +66,7 @@ export default function resume() {
 			<p style={{fontSize: 13, marginBottom: 5}}>May 2024 - December 2024</p><p style={{lineHeight: 1.5,}}>Gained Experience creating full-stack web applications in an agile development setting, working in a software developer team of 5-10 developers. Learned how to make APIs in .net, SQL database integration, and front-end development with React.js</p>
 			</span>
 			<span>
-			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"SOFWERX, Tampa, Fl — Computer Science Intern"}</h4>
+			<h4 style={{fontSize: 16, color: 'rgba(255,255,255,.75)', fontWeight: '800', marginTop: 5, marginBottom: 5, textTransform: 'initial'}}>{"SOFWERX, Tampa, Fl — Software Engineering Intern"}</h4>
 			<p style={{fontSize: 13, marginBottom: 5}}>May 2023 - December 2023</p><p style={{lineHeight: 1.5,}}>Full stack development with Next.js and Bootstrap, AWS deployment, headless CMS integration, UI/UX design in Figma, version control using GIT.  Fast development and prototyping using open-source repositories.</p>
 			</span>
 		</div>
@@ -191,6 +191,15 @@ JavaScript, React.js, React Native, Next.js, Express.js, MongoDB, Python, C, C++
 	<span className={css.afterGlowBg}></span>
 </div>
 <div className={css.bgContainer} style={{top: 1250, zIndex: -1, opacity: 1}}>
+	<span className={css.orbitalBg}>
+		<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroLeft} ${css.heroOrbital}`}></span></span>
+		<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroCenter}`}></span></span>
+		<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroRight} ${css.heroOrbital}`}></span></span>
+	</span>
+	<span className={css.afterGlowBg}></span>
+</div>
+
+<div className={css.bgContainer} style={{top: 2050, zIndex: -1, opacity: 1}}>
 	<span className={css.orbitalBg}>
 		<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroLeft} ${css.heroOrbital}`}></span></span>
 		<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroCenter}`}></span></span>

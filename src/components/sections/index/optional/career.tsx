@@ -86,7 +86,7 @@ export default function Career() {
 
 						<div className={career.companyContent}>
 							<span className={career.companyHeader}>
-						<h3>Web Development Intern at SOFWERX</h3>
+						<h3>Software Engineering Intern at SOFWERX</h3>
 									<h4>Part Time · May 2023 - December 2023</h4>
 							</span>
 							<p style={{fontSize: 15}}>
@@ -141,6 +141,15 @@ export default function Career() {
 				<span className={css.afterGlowBg}></span>
 			</div>
 
+
+			<div className={css.bgContainer} style={{top: 2500, zIndex: -1, opacity: .9}}>
+				<span className={css.orbitalBg}>
+					<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroLeft} ${css.heroOrbital}`}></span></span>
+					<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroCenter}`}></span></span>
+					<span className={`${css.bgSection}`}><span className={`${css.bgInner} ${css.heroRight} ${css.heroOrbital}`}></span></span>
+				</span>
+				<span className={css.afterGlowBg}></span>
+			</div>
 		</Section>
 
 	)

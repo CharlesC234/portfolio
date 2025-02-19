@@ -71,49 +71,24 @@
 		]
 	},
 	{
-		"project": "VLICS",
-		"url": "http://34.28.131.121:3000",
-		"repo": "Private",
+		"project": "Midnight NFT Marketplace",
+		"url": "https://github.com/CharlesC234/Midnight-Marketplace",
+		"repo": "Public",
 		"descriptionTitle": "A full-stack web application",
-		"description": "built on Next.js, C# and PostgresSQL. The app allows users to scan an NFC tag located on a real world object to get information about that object. Mainly focused on helping visually impared users via a read out loud feature. Live now!",
+		"description": "built on Next.js, Solidity, Python, and TailwindCSS. The app acts as an NFT marketplace payment processor system with custom Smart Contracts!",
 		"imageOptions": [
 			{ "key": "size", 		"value": "large" }
 		],
 		"images": [
-			{ "key": "portfolio", "hover": "left", "h": "415", "w": "510", "l": "500", "url": "/img/Vlics.png" }
+			{ "key": "portfolio", "hover": "left", "h": "415", "w": "510", "l": "500", "url": "/img/Midnight.png" }
 		],
 		"stack": [
 			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
-			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "python", 		"name": "Python", 		"type": "devicon" },
 			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
 			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
-			{"key": "C#", "name": "CSharpe", "type": "devicon"},
-			{"key": ".Net", "name": "DotNet", "type": "devicon"},
-			{"key": "Docker", "name": "Docker", "type": "devicon"}
-		]
-	},
-	{
-		"project": "BasedGPT.chat",
-		"url": "https://www.basedgpt.chat/",
-		"repo": "Private",
-		"descriptionTitle": "An AI chatbot",
-		"description": "built on the llama model utilizing PygmalionAI, as well as Chatbot UI for the frontend. An uncensored ChatGPT. Offline due to high running fees",
-		"imageOptions": [
-			{ "key": "size", 		"value": "large" }
-		],
-		"images": [
-			{ "key": "portfolio", "hover": "right", "h": "700", "w": "300", "l": "500", "url": "/img/BasedGPT4.png" }
-		],
-		"stack": [
-			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
-			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
-			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
-			{ "key": "aws",			"name": "AWS", 	"type": "devicon" },
-			{ "key": "chatbotui",			"name": "ChatBotUI", 	"type": "devicon" },
-			{ "key": "pygmalionai",			"name": "PygmalionAI", 	"type": "devicon" },
-			{ "key": "llama",			"name": "LLAMA", 	"type": "devicon" },
-			{ "key": "python",			"name": "Python", 	"type": "devicon" }
-
+			{"key": "solidity", "name": "Solidity", "type": "devicon"},
+			{"key": "tailwindcss", "name": "TailwindCSS", "type": "devicon"}
 		]
 	},
 	{
@@ -137,6 +112,101 @@
 			{ "key": "tailwindcss", 	"name": "Tailwind", "type": "devicon" },
 			{ "key": "snipcart", 	"name": "Snipcart", 	"type": "devicon" },
 			{"key": "strapi", "name": "Strapi", "type": "devicon"}
+		]
+	},
+	{
+		"project": "VLICS",
+		"url": "http://34.28.131.121:3000",
+		"repo": "Private",
+		"descriptionTitle": "A full-stack web application",
+		"description": "built on Next.js, C# and PostgresSQL. The app allows users to scan an NFC tag located on a real world object to get information about that object. Mainly focused on helping visually impared users via a read out loud feature. Live now!",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "left", "h": "415", "w": "510", "l": "500", "url": "/img/Vlics.png" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
+			{ "key": "react", 		"name": "React", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{"key": "C#", "name": "CSharpe", "type": "devicon"},
+			{"key": ".Net", "name": "DotNet", "type": "devicon"},
+			{"key": "Docker", "name": "Docker", "type": "devicon"}
+		]
+	},
+	{
+		"project": "IEX Task Manager",
+		"url": "https://github.com/CharlesC234/IEX_Task_Manager",
+		"repo": "Public",
+		"descriptionTitle": "A full-stack web application",
+		"description": "built on React, Typescript, .NET (C#), and MySQL. The app is meant as an agile task manager like Jira, allowing users to create projects, tasks, stages, and teams",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "left", "h": "415", "w": "510", "l": "500", "url": "/img/IEXTaskManager.jpg" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
+			{ "key": "typescript", 		"name": "TypeScript", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{"key": "react", "name": "React", "type": "devicon"},
+			{"key": "bootstrap", "name": "Bootstrap", "type": "devicon"},
+			{"key": "mysql", "name": "MySQL", "type": "devicon"},
+			{"key": "dotnet", "name": ".NET", "type": "devicon"},
+			{"key": "csharp", "name": "C#", "type": "devicon"}
+		]
+	},
+	{
+		"project": "BasedGPT.chat",
+		"url": "https://github.com/GravyPouch/based-GPT-frontend",
+		"repo": "Public",
+		"descriptionTitle": "An AI chatbot",
+		"description": "built on the llama model utilizing PygmalionAI, as well as Chatbot UI for the frontend. An uncensored ChatGPT. Offline due to high running fees",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "700", "w": "300", "l": "500", "url": "/img/BasedGPT4.png" }
+		],
+		"stack": [
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{ "key": "aws",			"name": "AWS", 	"type": "devicon" },
+			{ "key": "chatbotui",			"name": "ChatBotUI", 	"type": "devicon" },
+			{ "key": "pygmalionai",			"name": "PygmalionAI", 	"type": "devicon" },
+			{ "key": "llama",			"name": "LLAMA", 	"type": "devicon" },
+			{ "key": "python",			"name": "Python", 	"type": "devicon" }
+
+		]
+	},
+	{
+		"project": "Rank-It",
+		"url": "",
+		"repo": "Private",
+		"descriptionTitle": "A full-stack web application",
+		"description": "built on EJS, Express.js, and MongoDB. The app is meant as a ranking app, allowing users to make a page of objects to rank (can be password protected), and share the link with others to rank",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "700", "w": "300", "l": "500", "url": "/img/Rank-It.png" }
+		],
+		"stack": [
+			{ "key": "nodejs", 		"name": "Node.js", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{ "key": "ejs",			"name": "EJS", 	"type": "devicon" },
+			{ "key": "expressjs",			"name": "Express.js", 	"type": "devicon" },
+			{ "key": "css",			"name": "CSS", 	"type": "devicon" },
+			{ "key": "tailwindcss",			"name": "TailwindCSS", 	"type": "devicon" },
+			{ "key": "python",			"name": "Python", 	"type": "devicon" },
+			{ "key": "mongodb",			"name": "MongoDB", 	"type": "devicon" }
+
 		]
 	},
 	{
@@ -164,13 +234,34 @@
 		]
 	},
 	{
+		"project": "AI Fitness App",
+		"url": "https://github.com/CharlesC234/MobileDeviceAppsProject",
+		"repo": "Public",
+		"descriptionTitle": "An Android mobile application",
+		"description": "built on Java and using the OpenAI API. The app is meant as a AI personal trainer that allows for custom workouts and meal plans based on user inputted fields such as weight, height, body fat, ect.",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "right", "h": "500", "w": "250", "l": "500", "url": "/img/AIFitApp2.jpg" },
+			{ "key": "portfolio", "hover": "right", "h": "500", "w": "250", "l": "500", "url": "/img/AIFitApp1.jpg" }
+		],
+		"stack": [
+			{ "key": "java", 		"name": "Java", 		"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{"key": "openai", "name": "Open AI API", "type": "devicon"},
+			{"key": "npm", "name": "NPM", "type": "devicon"},
+			{"key": "androidstudio", "name": "Android Studio", "type": "devicon"}
+		]
+	},
+	{
 		"project": "charlescahill.dev",
 		"url": "https://github.com/CharlesC234/portfolio",
 		"repo": "Public",
 		"descriptionTitle": "A portfolio website",
 		"description": "built on Next.js and React. A fast and responsive multi-page application.",
 		"imageOptions": [
-			{ "key": "size", 		"value": "large" }
+			{ "key": "size", "value": "large" }
 		],
 		"images": [
 			{ "key": "portfolio", "hover": "right", "h": "0", "w": "0", "l": "500", "url": "/img/img-mock2.png" }
@@ -189,7 +280,7 @@
 	},
 	{
 		"project": "viben.tech",
-		"url": "https://viben.tech",
+		"url": "",
 		"repo": "Private",
 		"descriptionTitle": "A buisness portfolio website",
 		"description": "built on HTML, CSS, and JavaScript. A fast and responsive site meant for marketing and providing insight.",
