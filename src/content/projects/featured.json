@@ -1,5 +1,27 @@
 [
 	{
+		"project": "TXTWise.io",
+		"url": "https://txtwise.io",
+		"repo": "Public",
+		"descriptionTitle": "A full-stack SaaS Application",
+		"description": "built on Next.js, Tailwind CSS, Express.js, and MongoDB. The app allows users to use AI llms like ChatGPT, Gemini, Grok, ect. over SMS directly from their messaging app. Check it out for yourself by clicking!",
+		"imageOptions": [
+			{ "key": "size", 		"value": "large" }
+		],
+		"images": [
+			{ "key": "portfolio", "hover": "left", "h": "415", "w": "510", "l": "500", "url": "/img/txtwise.png" }
+		],
+		"stack": [
+			{ "key": "nextjs", 		"name": "Next.js", 		"type": "devicon" },
+			{ "key": "expressjs", 		"name": "Express.js", 		"type": "devicon" },
+			{ "key": "javascript", 	"name": "JavaScript", 	"type": "devicon" },
+			{ "key": "git",			"name": "Git(Hub)", 	"type": "devicon" },
+			{"key": "mongodb", "name": "MongoDB", "type": "devicon"},
+			{"key": "tailwindcss", "name": "TailwindCSS", "type": "devicon"},
+			{"key": "stripe", "name": "Stripe", "type": "devicon"}
+		]
+	},
+	{
 		"project": "Portrait",
 		"url": "https://github.com/CharlesC234/Portrait",
 		"repo": "Public",
