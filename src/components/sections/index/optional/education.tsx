@@ -12,7 +12,7 @@ export default function Education() {
   return (
     <Section classProp={`${career.section} borderBottom`}>
       <Container spacing={["verticalXXXLrg"]}>
-        <SectionTitle title="Education" preTitle="Formal" />
+        <SectionTitle title="Education" preTitle="Formal" subTitle="" />
         <section className={career.area}>
           <article className={career.company}>
             <div className={career.companyContent}>
