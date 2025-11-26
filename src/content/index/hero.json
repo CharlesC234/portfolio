@@ -1,37 +1,37 @@
 {
-	"intro": {
-		"start": "const myPortfolio = () =>",
-		"end": "const myPortfolio = () =>",
-		"speed": 60,
-		"deletionSpeed": 80,
-		"wrapper": "h2",
-		"startDelay": 1000,
-		"deleteDelay": 3000,
-		"restartDelay": 12000
-	},
+  "intro": {
+    "start": "const myPortfolio = () =>",
+    "end": "const myPortfolio = () =>",
+    "speed": 60,
+    "deletionSpeed": 80,
+    "wrapper": "h2",
+    "startDelay": 1000,
+    "deleteDelay": 3000,
+    "restartDelay": 12000
+  },
 
-	"header": {
-		"name": "Charles Cahill.",
-		"usp": "Full Stack Developer."
-	},
+  "header": {
+    "name": "Charles Cahill.",
+    "usp": "Full Stack Developer."
+  },
 
-	"paragraph": "Hello! Here is a short overview of some of the work I have done, and some I am currently working on. I mainly specialize in Full-Stack development in Javascript (Next.js, React, React-Native), EJS, HTML, PHP, and CSS. I have muliple years of experience with Node.js, Express.js, MongoDB, and SQL as well. Over the past couple of years I have leaned into working in the space of Blockchain Technology, and most recently AI, working heavily with Python. I am currently in possession of a DOD Secret Clearance, and am in the process of being TS/SCI cleared as of September 2024",
+  "paragraph": "Hello! Here is a short overview of some of the work I have done, and some I am currently working on. I mainly specialize in Full-Stack development in Javascript (Next.js, React, React-Native), EJS, HTML, PHP, and CSS. I have muliple years of experience with Node.js, Express.js, MongoDB, and SQL as well. Over the past couple of years I have leaned into working in the space of Blockchain Technology, and most recently AI, working heavily with Python. I am currently in possession of a DOD TS/SCI Clearance",
 
-	"buttons": {
-		"primary": {
-			"title": "Contact Me",
-			"url": "mailto:ccahill0901@floridapoly.edu",
-			"leaveSite": false
-		},
-		"secondary": {
-			"title": "LinkedIn",
-			"url": "https://www.linkedin.com/in/charles-cahill-897475267/",
-			"leaveSite": "true"
-		},
-		"third": {
-			"title": "Resume",
-			"url": "https://charlescahill.dev/resume",
-			"leaveSite": "true"
-		}
-	}
+  "buttons": {
+    "primary": {
+      "title": "Contact Me",
+      "url": "mailto:ccahill0901@floridapoly.edu",
+      "leaveSite": false
+    },
+    "secondary": {
+      "title": "LinkedIn",
+      "url": "https://www.linkedin.com/in/charles-cahill-897475267/",
+      "leaveSite": "true"
+    },
+    "third": {
+      "title": "Resume",
+      "url": "https://charlescahill.dev/resume",
+      "leaveSite": "true"
+    }
+  }
 }
